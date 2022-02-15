@@ -1,13 +1,13 @@
 all:
 
 pass:
-	gcc pass_filefind.c -o pass
+	gcc pass_filefind.c filefind.o -o pass
 
 fail:
-	gcc fail_filefind.c -o fail
+	gcc fail_filefind.c filefind.o -o fail
 
 test:
-	gcc test_filefind.c -o test
+	gcc test_filefind.c filefind.o -o test
 
 # run:
 
