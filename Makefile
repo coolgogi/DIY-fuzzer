@@ -1,17 +1,24 @@
 all:
-	gcc -c src/runner.c -o src/runner.o
+	gcc -c src/runner.c -o bin/runner.o
+	gcc src/main.c bin/runner.o -o main
+
+
 pass:
-	gcc test/test_pass.c src/runner.o -o testFile
+	gcc test/pass.c -o file
+
 
 fail:
-	gcc test/test_fail.c src/runner.o -o testFile
+	gcc test/fail.c -o file
+
 
 timeout:
-	gcc test/test_timeout.c src/runner.o -o testFile
+	gcc test/timeout.c -o file
+
 
 run:
-	./testFile
+	./main file test/input.txt
+
 
 clean:
-	rm testFile
 	rm file
+	rm main

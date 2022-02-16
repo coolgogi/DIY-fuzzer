@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void
 filefind(char * path){
 
