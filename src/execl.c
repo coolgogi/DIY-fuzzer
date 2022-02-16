@@ -3,30 +3,32 @@
 #include <unistd.h>
 
 int
-main(int argc, char * argv[]){
+main(int argc, char * argv[]) {
 
     int rt = 0;
     pid_t child_pid;
     child_pid = fork();
 
-    if(child_pid == 0){
+    if(child_pid == 0) {
         if(!execl(argv[1],argv[2],(char *) NULL)){
             /*
                 fail case
                 freopen();
             */
-           
+            return rt;
         }
-		
+        return rt;
         /*
             timeout case
         */
        
-    }else{
+    }
+    else {
+        int * status;
         /*
             pass case
         */
-        wait(0);
+        wait(&status);
         rt = 1;
        
     }

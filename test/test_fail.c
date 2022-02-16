@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include "../src/runner.h"
+#include "../include/runner.h"
 
 int
 main(int argc, char * argv[]){
@@ -16,7 +16,7 @@ main(int argc, char * argv[]){
 		wait(0);
 		rt = runner("./file","abc");
 	}
-	
+
 	if(rt){
 		printf("target program passes\n");
 	}else{
