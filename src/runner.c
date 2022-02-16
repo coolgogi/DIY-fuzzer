@@ -47,7 +47,7 @@ runner(char * exec, char * input)
         close(fd[1]);
         wait(0);
 
-        if(read(fd[0], msg, 101)== -1)
+        if(read(fd[0], msg, 101)== )
         {
             /*
                 pass case
