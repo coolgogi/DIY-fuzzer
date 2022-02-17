@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int
-main(int argc, char * argv[])
-{
-    char ch ;
-    
-    printf("please input any character\n");
-    scanf("%c", &ch);
-    printf("char : %c\n", ch);
+main (int argc, char * argv[]) {
+    char str[100] ;
+    scanf("%s", str);
+    printf("string : %s\n", str);
     return 0;
 }

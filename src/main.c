@@ -1,48 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include "../include/runner.h"
 
 int
-main(int argc, char * argv[]) 
-{
+main (int argc, char * argv[]) {
 
-    if(argc != 3)
-    {
-        printf("invalid argument\n");
-        return 0;
-    }    
-    
-    if( !fopen(argv[1], "r") )
-    {
-        printf("%s : file not exists\n", argv[1]);
-        return 0;
-    }
-    if( !fopen(argv[2], "r") )
-    {
-        printf("%s : file not exists\n", argv[2]);
-        return 0;
+    if (argc != 3) {
+        fprintf(stderr, "invalid arguments\n");
+        exit(SIGILL);
     }
 
-    int result = runner(argv[1], argv[2]) ;
+    if (access(argv[1], X_OK) == -1) {
+        fprintf(stderr, "Cannot access to the argv[1]\n");
+        exit(SIGILL);
+    }
+    if (access(argv[2], R_OK) == -1) {
+        fprintf(stderr, "Cannot access to the argv[2]\n");
+        exit(SIGILL);
+    }
 
-    if(result == 1)
-    {
-        /*
-        pass case
-        */
-    }
-    else if(result == 0)
-    {
-        /*
-        timeout case
-        */
-    }
-    else if(result == -1)
-    {
-        /*
-        other fail case
-        */
-    }
+    EXITCODE * result ;
+    result = (EXITCODE *) malloc (sizeof(EXITCODE));
+    result = runner(argv[1], argv[2]) ;
+
+    printf("%s\n", result->msg);    
 
     return 0;
 }
