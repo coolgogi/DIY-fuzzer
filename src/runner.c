@@ -8,78 +8,92 @@
 #include <signal.h>
 #include "../include/runner.h"
 
-EXITCODE *
-runner (char * exec, char * input) {
+
+EXITCODE
+runner (char * exec, char * input, char * output) {
 
     pid_t child_pid;
-    EXITCODE * rt;
-    rt = (EXITCODE *) malloc (sizeof(EXITCODE));
+    EXITCODE rt;
     
     child_pid = fork();
 
     if (child_pid < 0) {
-        rt->num = ERROR_FORK;
-        strcpy(rt->msg, "fork() failed in runner");
+        rt.code_num = ERROR_FORK;
+        rt.valid = INVALID;
         return rt;
     }
     else if (child_pid == 0) {
     
-        int fp = open(input, O_RDONLY);
+        int fp[2] ;
+        fp[0] = open(input, O_RDONLY);
+        fp[1] = open(output, O_WRONLY);
 
-        if (dup2(fp, STDIN_FILENO) == -1) {
-            rt->num = ERROR_DUP2;
-            strcpy(rt->msg, "input dup2 error in runner");
-            return rt;
+        if (dup2(fp[0], STDIN_FILENO) == -1) {
+            
+            _exit(ERROR_DUP2);
+        }   
+        if (dup2(fp[1], STDOUT_FILENO) == -1) {
+
+            _exit(ERROR_DUP2);
         }
+        if (dup2(fp[1], STDERR_FILENO) == -1) {
 
+            _exit(ERROR_DUP2);
+        }   
+    
         if (execl(exec,0) == -1) {
             
-            rt->num = 1;
-            strcpy(rt->msg, "execl error in runner");
-            return rt;
+            close(fp[0]);
+            close(fp[1]);
+            _exit(ERROR_EXECL);
         }
-        // close(fp); ??
+        
     }
     else {
+        int status ;
+        // sigtimedwait isn't in signal.h
+        // sigset_t set;
+        // sigemptyset(&set);
+        // sigaddset(&set, SIGKILL);
+        
+        // struct timespec to;
+        // to.tv_sec = 10 ;
+        // to.tv_nsec = 0 ;
+        // status = sigtimedwait(&set,NULL,&to);
+        
         time_t start = time(0);
         time_t cur = time(0);
-        
-        int status ;
+    
         while (1) {
             if (cur - start >= 10) {
+                
                 kill(child_pid, SIGKILL);
             }
 
             if (waitpid(0, &status, WNOHANG) != 0) {
+
                 break;
             }
             
             cur = time(0);
         }
+        // waitpid(0, &status, WNOHANG);
+        // alarm(10);
+        // pause();
+        // if (kill(child_pid, SIGKILL) != 0) {
+        //     fprintf(stderr, "timeout case\n");
+        // }
+        // waitpid(0, &status, WNOHANG);
 
-        rt->num = status;
-        switch (status)
-        {
-            case 0:
-                strcpy(rt->msg, "PASS");
-                break;
-            
-            case 9:
-                strcpy(rt->msg, "TIMEOUT");
-                break;
-
-            case 11:
-                strcpy(rt->msg, "SEGMENTATION FAULT");
-                break;
-
-            default:
-                break;
+        if (status == 0) {
+            rt.valid = VALID;
         }
-        
-        int fp2 = open("../test/output/output.txt", O_WRONLY, 0);
-        write(fp2, rt->msg, 101);
-        close(fp2);
+        else {
+            rt.valid = INVALID;
+        }
+        rt.code_num = status;
         return rt;
+    
     }
     return rt;
 }

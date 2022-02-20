@@ -1,16 +1,24 @@
-#define ERROR_FORK -1
-#define ERROR_DUP2 -2
-#define PASS 0
-#define FAIL 1
-#define TIMEOUT 9
-#define SEGV 11
+enum Code {
+	ERROR_FORK = -3,
+	ERROR_DUP2 = -2,
+	ERROR_EXECL = -1,
+	PASS = 0,
+	FAIL = 1,
+	TIMEOUT = 9,
+	SEGV = 11
+};
+
+enum Valid {
+
+	VALID = 0,
+	INVALID = 1,
+};
 
 typedef struct exitcode {
 
-	int num;
-	char msg[100];
+	int code_num;
+	int valid;
 
 } EXITCODE;
 
-EXITCODE *
-runner (char *, char *);
+EXITCODE runner (char *, char *, char *);

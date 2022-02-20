@@ -2,22 +2,15 @@ all:
 	gcc -c src/runner.c -o bin/runner.o
 	gcc src/main.c bin/runner.o -o bin/main
 
-
-pass:
-	gcc test/pass.c -o bin/file
-
-
-fail:
-	gcc test/fail.c -o bin/file
-
-
-timeout:
-	gcc test/timeout.c -o bin/file
-
-
-run:
-	./bin/main bin/file test/input/input.txt
-
+testcase:
+	rm ./test/output/output_*.txt
+	gcc ./test/pass.c -o ./bin/pass
+	gcc ./test/fail.c -o ./bin/fail
+	gcc ./test/timeout.c -o ./bin/timeout
+	cp ./test/output/output.txt ./test/output/output_passing.txt
+	cp ./test/output/output.txt ./test/output/output_failing.txt
+	cp ./test/output/output.txt ./test/output/output_timeout.txt
 
 clean:
 	rm bin/*
+
