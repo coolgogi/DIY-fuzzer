@@ -50,7 +50,7 @@ main (int argc, char * argv[]) {
     else if (result.code_num == FAIL) {
         fprintf(stderr, "Failing case\n");
     }
-    else if (result.code_num == TIMEOUT) {
+    else if (result.code_num == KILL) {
         fprintf(stderr, "Timeout case\n");
     }
     else if (result.code_num == SEGV) {

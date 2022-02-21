@@ -40,7 +40,7 @@ runner (char * exec, char * input, char * output) {
 
             _exit(ERROR_DUP2);
         }   
-    
+        
         if (execl(exec,0) == -1) {
             
             close(fp[0]);
@@ -50,48 +50,29 @@ runner (char * exec, char * input, char * output) {
         
     }
     else {
+        pid_t w;
         int status ;
-        // sigtimedwait isn't in signal.h
-        // sigset_t set;
-        // sigemptyset(&set);
-        // sigaddset(&set, SIGKILL);
-        
-        // struct timespec to;
-        // to.tv_sec = 10 ;
-        // to.tv_nsec = 0 ;
-        // status = sigtimedwait(&set,NULL,&to);
-        
-        time_t start = time(0);
-        time_t cur = time(0);
-    
-        while (1) {
-            if (cur - start >= 10) {
-                
-                kill(child_pid, SIGKILL);
-            }
+        time_t cur, start ;
+        cur = time(0);
+        start = time(0);
 
-            if (waitpid(0, &status, WNOHANG) != 0) {
-
-                break;
-            }
-            
+        while (cur - start < 3) {
             cur = time(0);
         }
-        // waitpid(0, &status, WNOHANG);
-        // alarm(10);
-        // pause();
-        // if (kill(child_pid, SIGKILL) != 0) {
-        //     fprintf(stderr, "timeout case\n");
-        // }
-        // waitpid(0, &status, WNOHANG);
+        kill(child_pid, SIGKILL);
+        w = waitpid(child_pid, &status, 0);
+        if (w == -1) {
+            _exit(ERROR_WAITPID);
+        }
 
-        if (status == 0) {
+        rt.code_num = status;
+        if (WIFEXITED(status)) {
             rt.valid = VALID;
         }
         else {
             rt.valid = INVALID;
         }
-        rt.code_num = status;
+
         return rt;
     
     }
