@@ -56,7 +56,7 @@ runner (char * exec, char * input, char * output) {
         cur = time(0);
         start = time(0);
 
-        while (cur - start < 3) {
+        while (cur - start < 10) {
             cur = time(0);
         }
         kill(child_pid, SIGKILL);
