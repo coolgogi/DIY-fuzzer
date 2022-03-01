@@ -1,8 +1,4 @@
 enum Code {
-	ERROR_WAITPID = -4,
-	ERROR_FORK = -3,
-	ERROR_DUP2 = -2,
-	ERROR_EXECL = -1,
 	PASS = 0,
 	FAIL = 1,
 	KILL = 9,
@@ -12,6 +8,7 @@ enum Code {
 
 enum Valid {
 
+	UNRESOLVED = -1,
 	VALID = 0,
 	INVALID = 1,
 };
@@ -24,3 +21,4 @@ typedef struct exitcode {
 } EXITCODE;
 
 EXITCODE runner (char *, char *, char *);
+int read_exec_dir (char *, char *);
