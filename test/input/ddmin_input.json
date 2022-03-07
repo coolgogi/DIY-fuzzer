@@ -1,0 +1,5501 @@
+// chars : 303
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+
+  ==75050==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x000107b03e80 at pc 0x000102f625d4 bp 0x00016ce9f110 sp 0x00016ce9f108
+READ of size 4 at 0x000107b03e80 thread T0
+    #0 0x102f625d0 in dump jsondump.c:33
+    #1 0x102f62554 in dump jsondump.c:44
+    #2 0x102f61dbc in main jsondump.c:120
+    #3 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+0x000107b03e80 is located 0 bytes to the right of 512-byte region [0x000107b03c80,0x000107b03e80)
+allocated by thread T0 here:
+    #0 0x1033f51d8 in wrap_realloc+0x9c (libclang_rt.asan_osx_dynamic.dylib:arm64e+0x3d1d8)
+    #1 0x102f61e18 in main jsondump.c:113
+    #2 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow jsondump.c:33 in dump
+Shadow bytes around the buggy address:
+  0x007020f80780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007020f80790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x007020f807a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x007020f807b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x007020f807c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x007020f807d0:[fa]fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007020f807e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007020f807f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007020f80800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007020f80810: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007020f80820: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==75050==ABORTING
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+
+// n = 2
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded project
+// fread(): unexpected EOF
+
+
+
+
+  ",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// fread(): unexpected EOF
+
+// n = 4
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/token
+// fread(): unexpected EOF
+
+
+izer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded project
+// pass
+
+
+  ",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/zserge/jsmn.git"
+  },
+  "f
+// pass
+
+
+  rameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// fread(): unexpected EOF
+
+
+izer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// fread():
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokens",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projectsrameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "f
+
+// fread(): unexpected EOF
+"}
+// n = 8
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "desc
+// unexpected EOF
+    
+    ription": "Minimalistic JSON parser/token
+// unexpected EOF
+
+
+
+    izer in C. It : "jsmn",
+    can be easily integrate
+// pass
+    
+    d into resource-limited or embedded project
+/pass
+
+    ",
+    "repository":
+    {
+      "type": "git",
+      "url": "ht
+// unexpected EOF
+      
+      
+      tps://github.com/zserge/jsmn.git"
+    },
+    "f
+// unexpected EOF
+
+
+    rameworks": "*",
+    "platforms": "*",
+    "examp
+// unexpected
+    
+    
+    les": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// unexpected
+
+ription": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// unexpected
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "descizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokend into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrates",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projecttps://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// unexpected EOF
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "fles": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// unexpected EOF
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examp
+"}// unexpected EOF
+
+// n = 16
+
+{
+    "name": "jsmn",
+    "key
+    
+    words": "json",
+    "desc
+    
+    
+    ription": "Minimalis
+    
+    tic JSON parser/token
+// pass
+
+
+    izer in C. It : "jsmn",
+    c
+// pass    
+
+    an be easily integrate
+// pass
+    
+    d into resource-limit
+// pass
+    
+    ed or embedded project
+// pass
+
+    s”,
+    "repository":
+    {
+      "ty
+
+      
+      pe": "git",
+      "url": "ht
+      
+    
+      tps://github.com/zs
+// pass
+      
+      erge/jsmn.git"
+    },
+    "f
+
+
+    rameworks": "*",
+    "pla
+    
+    tforms": "*",
+    "examp
+    
+    
+    les": [
+      "example/*.c"
+*/
+    ],
+    "exclude": "test"
+}
+
+
+words": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+
+
+{
+    "name": "jsmn",
+    "keyription": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "descizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenan be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  cd into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrateed or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limits",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projectpe": "git",
+      "url": "https://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "tytps://github.com/zserge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// fail
+// chars : 284
+==79471==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x000109803e80 at pc 0x000104e225d4 bp 0x00016afdf110 sp 0x00016afdf108
+READ of size 4 at 0x000109803e80 thread T0
+    #0 0x104e225d0 in dump jsondump.c:33
+    #1 0x104e22554 in dump jsondump.c:44
+    #2 0x104e21dbc in main jsondump.c:120
+    #3 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+0x000109803e80 is located 0 bytes to the right of 512-byte region [0x000109803c80,0x000109803e80)
+allocated by thread T0 here:
+    #0 0x1052851d8 in wrap_realloc+0x9c (libclang_rt.asan_osx_dynamic.dylib:arm64e+0x3d1d8)
+    #1 0x104e21e18 in main jsondump.c:113
+    #2 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow jsondump.c:33 in dump
+Shadow bytes around the buggy address:
+  0x007021320780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021320790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213207a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213207b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213207c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0070213207d0:[fa]fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070213207e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070213207f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021320800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021320810: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021320820: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==79471==ABORTING
+    
+// n = 2
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embed
+  
+  
+  ded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hte
+      
+      
+      rge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+
+// n = 4
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/
+    
+    
+    tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embed
+// pass
+  
+  ded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frame
+    
+    
+    works": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+
+
+tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/ded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embed
+
+      rge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hte
+      works": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hte
+      
+      
+      rge/jsmn.git"
+    },
+    "frame
+
+
+"// n = 8
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "de
+//
+
+scription": "Minimalistic JSON parser/
+//
+    
+    tokenizer in C. It : "jsmn",
+  can be easily in
+// pass
+
+tegrated into resource-limited or embed
+// pass
+  
+  ded projects",
+    "repository":
+    {
+      "type": "g
+//
+	
+	it",
+      "url": "hterge/jsmn.git"
+    },
+    "frame
+//
+    
+    works": "*",
+    "platforms": "*",
+    "examples
+//
+
+	": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+scription": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "detokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tegrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily inded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedit",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "gworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frame": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples
+"}
+//
+
+// n = 16
+{
+    "name": "jsmn",
+    "ke
+"//
+"	
+	ywords": "json",
+    "de
+"//
+"
+
+scription": "Minima
+//
+
+listic JSON parser/
+// pass
+    
+    tokenizer in C. It : "j
+//
+
+	smn", can be easily in
+// pass
+
+tegrated into resour
+// pass
+
+ce-limited or embed
+// pass
+  
+  ded projects",
+    "repo
+//
+	
+	sitory":
+    {
+      "type": "g
+//
+	
+	it",
+      "url": "hterge/
+//
+	
+	jsmn.git"
+    },
+    "frame
+//
+    
+    works": "*",
+    "platfo
+//
+	
+	rms": "*",
+    "examples
+//
+
+	": [
+      "example/*.c"
+    ],
+//
+	
+    "exclude": "test"
+}
+//
+
+ywords": "json",
+    "description": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/ 
+//
+
+{
+    "name": "jsmn",
+    "kescription": "Minimalistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "delistic JSON parser/tokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// fail
+// chars : 267
+// n = 2
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projec
+//
+
+	ts",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+// n = 4
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. 
+//
+
+It : "jsmn",
+  can be easily integrated into resource-limited or embedded projec
+// pass
+
+
+	ts",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks
+//
+	
+	”: "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. ts",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projec": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks
+
+"}// n = 8
+
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "
+//
+
+description": "Minimatokenizer in C. 
+//
+
+It : "jsmn",
+  can be easily integrated int
+// pass
+
+o resource-limited or embedded projec
+// pass
+
+	ts",
+    "repository":
+    {
+      "type": "git",
+      "ur
+//
+
+	l": "hterge/jsmn.git"
+    },
+    "frameworks
+//
+	
+	”: "*",
+    "platforms": "*",
+    "examples": 
+//
+
+			[
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+    keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    " It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. o resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated intts",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projecl": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "ur": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": 
+//
+// n = 16
+
+{
+    "name": "jsmn",
+    "k
+//
+    
+    eywords": "json",
+    "
+//
+
+    description": "Min
+//
+    
+    imatokenizer in C. 
+// pass
+
+    It : "jsmn",
+  can be ea
+// pass
+  
+  sily integrated int
+// pass
+
+  o resource-limited
+// pass
+  
+  or embedded projec
+// pass
+
+  ts",
+  "repository":
+// pass
+
+  {
+    "type": "git",
+    "ur
+//
+
+    l": "hterge/jsmn.g
+//
+    
+    it"
+},
+"frameworks
+//
+
+”: "*",
+"platforms"
+//
+
+: "*",
+"examples": 
+//
+
+[
+    "example/*.c"
+  ],
+  "
+*/
+//
+
+  exclude": "test"
+}
+//
+
+
+eywords": "json",
+    "description": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "kdescription": "Minimatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "imatokenizer in C. It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// fail
+// chars : 251
+==90310==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x000108e03e80 at pc 0x00010439a5d4 bp 0x00016ba67110 sp 0x00016ba67108
+READ of size 4 at 0x000108e03e80 thread T0
+    #0 0x10439a5d0 in dump jsondump.c:33
+    #1 0x10439a554 in dump jsondump.c:44
+    #2 0x104399dbc in main jsondump.c:120
+    #3 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+0x000108e03e80 is located 0 bytes to the right of 512-byte region [0x000108e03c80,0x000108e03e80)
+allocated by thread T0 here:
+    #0 0x1045651d8 in wrap_realloc+0x9c (libclang_rt.asan_osx_dynamic.dylib:arm64e+0x3d1d8)
+    #1 0x104399e18 in main jsondump.c:113
+    #2 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow jsondump.c:33 in dump
+Shadow bytes around the buggy address:
+  0x0070211e0780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e0790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070211e07a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070211e07b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070211e07c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0070211e07d0:[fa]fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e07e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e07f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e0800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e0810: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e0820: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==90310==ABORTING
+// n = 2
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "rep
+//
+
+	ository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// 
+// n = 4
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  ca
+//
+
+n be easily integrated into resource-limited or embedded projects",
+    "rep
+//
+
+	ository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*
+//
+
+",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+n be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  caository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "rep",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*
+//
+// n = 8
+
+
+{
+    "name": "jsmn",
+    "keywords": "json"
+//
+
+,
+    "description": "Min It : "jsmn",
+  ca
+// pass
+
+n be easily integrated into resource-
+// pass
+
+limited or embedded projects",
+    "rep
+//
+
+	ository":
+    {
+      "type": "git",
+      "url": "ht
+//
+
+	erge/jsmn.git"
+    },
+    "frameworks": "*
+//
+
+",
+    "platforms": "*",
+    "examples": [
+      "
+//
+
+	example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+,
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json"n be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  calimited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-ository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "reperge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "ht",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "
+//
+"// n = 16
+
+{
+    "name": "jsmn",
+    "
+"//
+	
+	keywords": "json"
+// pass
+
+,
+    "description": "
+//
+
+	Min It : "jsmn",
+  ca
+// pass
+
+n be easily integra
+// pass
+
+ted into resource-
+// pass
+
+limited or embedde
+// pass
+
+d projects",
+    "rep
+//
+
+	ository":
+    {
+      "type"
+//
+
+	: "git",
+      "url": "ht
+//
+
+	erge/jsmn.git"
+    },
+//
+
+    "frameworks": "*
+//
+
+	",
+    "platforms": "
+//
+
+	*",
+    "examples": [
+      "
+//
+
+	example/*.c"
+    ],
+    "e
+*/
+//
+
+xclude": "test"
+"}
+//
+
+keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    ",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "n be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  cated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integralimited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-d projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embeddeository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "rep: "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type"erge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "ht
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    ",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "**",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "example/*.c"
+    ],
+    "exclude": "test"
+}
+// 
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "xclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "e
+"//
+// n = 32
+
+{
+    "name":
+//
+
+ "jsmn",
+    "
+//
+
+	keywords
+// pass
+
+	": "json"
+// pass
+
+,
+    "descri
+//
+
+	ption": "
+//
+
+	Min It : "j
+//
+
+	smn",
+  ca
+// pass
+
+n be easil
+// pass
+
+y integra
+// pass
+
+ted into r
+// pass
+
+esource-
+// pass
+
+limited o
+// pass
+
+r embedde
+// pass
+
+d projects
+// pass
+
+",
+    "rep
+// pass
+
+	ository"
+// pass
+
+	:
+    {
+      "type"
+//
+
+	: "git",
+      "
+//
+
+	url": "ht
+//
+
+	erge/jsm
+// pass
+	
+	n.git"
+    },
+//
+
+    "framewo
+//
+	
+	rks": "*
+//
+
+	",
+    "platf
+// pass
+	
+	orms": "
+//
+
+	*",
+    "exam
+//
+
+	ples": [
+      "
+//
+
+	example/
+// pass
+
+	*.c"
+    ],
+    "e
+//
+
+xclude": 
+// pass
+
+	"test"
+}
+//
+
+ "jsmn",
+    "keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": keywords": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// fail
+// chars : 243
+=================================================================
+==96265==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x000109903e80 at pc 0x000104e825d4 bp 0x00016af7f110 sp 0x00016af7f108
+READ of size 4 at 0x000109903e80 thread T0
+    #0 0x104e825d0 in dump jsondump.c:33
+    #1 0x104e82554 in dump jsondump.c:44
+    #2 0x104e81dbc in main jsondump.c:120
+    #3 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+0x000109903e80 is located 0 bytes to the right of 512-byte region [0x000109903c80,0x000109903e80)
+allocated by thread T0 here:
+    #0 0x1052a11d8 in wrap_realloc+0x9c (libclang_rt.asan_osx_dynamic.dylib:arm64e+0x3d1d8)
+    #1 0x104e81e18 in main jsondump.c:113
+    #2 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow jsondump.c:33 in dump
+Shadow bytes around the buggy address:
+  0x007021340780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021340790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213407a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213407b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213407c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0070213407d0:[fa]fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070213407e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070213407f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021340800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021340810: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021340820: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==96265==ABORTING
+// n = 2
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "reposit
+//
+
+	ory":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+// n = 4
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be eas
+//
+
+	ily integrated into resource-limited or embedded projects",
+    "reposit
+//
+
+	ory":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+// pass
+
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+        ily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easory":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "reposit
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+//
+// n = 8
+{
+    "name": "jsmn",
+    "": "json",
+    "descr
+//
+	
+	iption": "Min It : "jsmn",
+  can be eas
+// pass
+
+	ily integrated into resource-limit
+// pass
+
+	ed or embedded projects",
+    "reposit
+//
+
+	ory":
+    {
+      "type": "git",
+      "url": "hterg
+//
+
+	e/jsmn.git"
+    },
+    "frameworks": "*",
+//
+
+    "platforms": "*",
+    "examples": [
+    "e
+//
+
+	xample/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json",
+    "descily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be eased or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limitory":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "reposite/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterg
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+   xample/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+        "e
+"//
+// n = 16
+{
+    "name": "jsmn",
+    "
+//
+	
+	": "json",
+    "descr
+//
+	
+	iption": "Min It : 
+//
+
+	"jsmn",
+  can be eas
+// pass
+
+	ily integrated int
+// pass
+
+	o resource-limit
+// pass
+
+	ed or embedded pro
+// pass
+
+	jects",
+    "reposit
+//
+
+	ory":
+    {
+      "type": "gi
+//
+	
+	t",
+      "url": "hterg
+//
+
+	e/jsmn.git"
+    },
+    "f
+//
+
+	rameworks": "*",
+// pass
+
+    "platforms": "*"
+// pass
+
+	,
+    "examples": [
+      "e
+//
+
+	xample/*.c"
+    ],
+    "e
+//
+
+	xclude": "test"
+}
+//
+
+": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "descr"jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : ily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easo resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated inted or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limitjects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded proory":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repositt",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "gie/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "htergrameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// s
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "f
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+   ,
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*"xample/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "e
+"}//
+// n = 32
+
+{
+    "name": 
+//
+	
+	"jsmn",
+    "
+//
+	
+	": "json"
+// pass
+	
+	,
+    "descr
+//
+	
+	iption": 
+// pass
+
+	"Min It : 
+//
+
+	"jsmn",
+  ca
+// pass
+
+	n be eas
+// pass
+
+	ily integ
+// pass
+	
+	rated int
+// pass
+
+	o resourc
+// pass
+
+	e-limit
+// pass
+
+	ed or embe
+// pass
+
+	dded pro
+// pass
+
+	jects",
+    "
+//
+
+	reposit
+// pass
+
+	ory":
+    {
+      "t
+//
+
+	ype": "gi
+//
+	
+	t",
+      "url"
+// pass
+
+	: "hterg
+//
+
+	e/jsmn.g
+// pass
+
+	it"
+    },
+    "f
+//
+
+	ramework
+// pass
+	
+	s”: "*",
+//
+
+    "platfor
+//
+
+	ms": "*"
+// pass
+
+	,
+    "exampl
+//
+
+	es": [
+      "e
+//
+
+	xample/*
+*/
+//
+
+	.c"
+    ],
+    "e
+//
+
+	xclude":
+"// pass
+
+	 "test"
+}
+//
+
+ "jsmn",
+    "": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": ": "json",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    ",
+    "description": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// fail
+// chars : 236
+=================================================================
+==2399==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x000108e03e80 at pc 0x00010441a5d4 bp 0x00016b9e7110 sp 0x00016b9e7108
+READ of size 4 at 0x000108e03e80 thread T0
+    #0 0x10441a5d0 in dump jsondump.c:33
+    #1 0x10441a554 in dump jsondump.c:44
+    #2 0x104419dbc in main jsondump.c:120
+    #3 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+0x000108e03e80 is located 0 bytes to the right of 512-byte region [0x000108e03c80,0x000108e03e80)
+allocated by thread T0 here:
+    #0 0x10462d1d8 in wrap_realloc+0x9c (libclang_rt.asan_osx_dynamic.dylib:arm64e+0x3d1d8)
+    #1 0x104419e18 in main jsondump.c:113
+    #2 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow jsondump.c:33 in dump
+Shadow bytes around the buggy address:
+  0x0070211e0780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e0790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070211e07a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070211e07b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070211e07c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0070211e07d0:[fa]fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e07e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e07f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e0800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e0810: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070211e0820: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==2399==ABORTING
+// n = 2
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository
+//
+
+	":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+// n = 4
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily in
+//
+
+		tegrated into resource-limited or embedded projects",
+    "repository
+//
+
+	":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "
+//
+
+	platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+tegrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily in":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repositoryplatforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "
+//
+// n = 8 
+
+{
+    "name": "jsmn",
+    "": "json"iption
+//
+	
+	": "Min It : "jsmn",
+  can be easily in
+// pass
+
+		tegrated into resource-limited or 
+// pass
+
+	embedded projects",
+    "repository
+//
+
+	":
+    {
+      "type": "git",
+      "url": "hterge/
+//
+
+	jsmn.git"
+    },
+    "frameworks": "*",
+    "
+//
+
+	platforms": "*",
+    "examples": [
+      "ex
+//
+
+	ample/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json"iptiontegrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily in embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repositoryjsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "ample/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "ex
+//
+// n = 16
+
+{
+    "name": "jsmn",
+//
+
+    "": "json"iption
+// pass
+	
+	": "Min It : "jsmn"
+// pass
+
+	,
+  can be easily in
+// pass
+
+		tegrated into res
+// pass
+
+		ource-limited or 
+// pass
+
+	embedded project
+// pass
+	
+	s",
+    "repository
+//
+
+	":
+    {
+      "type": "git"
+// pass
+
+	,
+      "url": "hterge/
+//
+
+	jsmn.git"
+    },
+    "fra
+//
+
+	meworks": "*",
+    "
+//
+
+	platforms": "*",
+// pass
+
+	
+    "examples": [
+      "ex
+//
+
+	ample/*.c"
+    ],
+    "ex
+*/
+//
+	
+	clude": "test"
+}
+"//
+
+
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    ": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption,
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn"tegrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily inource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into res embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or s",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded project":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository,
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git"jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/meworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+//
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "fraplatforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+*/
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "
+    "examples": [
+      "example/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    ample/*.c"
+    ],
+    "exclude": "test"
+}
+// pass
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "exclude": "test"
+}
+//
+
+{
+    "name": "jsmn",
+    "": "json"iption": "Min It : "jsmn",
+  can be easily integrated into resource-limited or embedded projects",
+    "repository":
+    {
+      "type": "git",
+      "url": "hterge/jsmn.git"
+    },
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+      "example/*.c"
+    ],
+    "ex
+"}//
+// n = 32
+
+{
+    "name": 
+//
+
+	"jsmn",
+// pass
+
+    "": "json
+//
+
+	"iption
+//
+	
+	": "Min It 
+// pass
+	
+	: "jsmn"
+// pass
+
+	,
+  can be e
+// pass
+
+	asily in
+// pass
+
+		tegrated
+// pass
+
+		into res
+// pass
+
+		ource-li
+// pass
+
+		mited or 
+// pass
+
+	embedded 
+// pass
+
+	project
+// pass
+	
+	s",
+    "rep
+//
+
+	ository
+// pass
+
+	":
+    {
+      "type
+// pass
+
+	": "git"
+// pass
+
+	,
+      "url": "
+//
+
+	hterge/
+// pass
+
+	jsmn.git
+// pass
+
+	"
+    },
+    "fra
+// pass
+
+	meworks
+// pass
+
+	": "*",
+    "
+//
+
+	platform
+// pass
+
+	s": "*",
+// pass
+
+	
+    "examples
+//
+
+	": [
+      "ex
+// pass
+
+	ample/*.
+*/
+// pass
+
+	c"
+    ],
+    "ex
+//
+	
+	clude": 
+// pass
+
+	"test"
+}
+"//
+
+ "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily integrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": 
+  "": "json"iption": "Min It : "jsmn",
+can be easily integrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "iption": "Min It : "jsmn",
+can be easily integrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+// pass
+
+{
+  "name": "jsmn",
+  "": "json": "Min It : "jsmn",
+can be easily integrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+// pass
+
+
+{
+  "name": "jsmn",
+  "": "json"iption : "jsmn",
+can be easily integrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It ,
+can be easily integrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn"asily integrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be etegrated into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// fail
+// chars : 228
+=================================================================
+==8698==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x000109b03e80 at pc 0x000104fc65d4 bp 0x00016ae3b110 sp 0x00016ae3b108
+READ of size 4 at 0x000109b03e80 thread T0
+    #0 0x104fc65d0 in dump jsondump.c:33
+    #1 0x104fc6554 in dump jsondump.c:44
+    #2 0x104fc5dbc in main jsondump.c:120
+    #3 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+0x000109b03e80 is located 0 bytes to the right of 512-byte region [0x000109b03c80,0x000109b03e80)
+allocated by thread T0 here:
+    #0 0x1053711d8 in wrap_realloc+0x9c (libclang_rt.asan_osx_dynamic.dylib:arm64e+0x3d1d8)
+    #1 0x104fc5e18 in main jsondump.c:113
+    #2 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow jsondump.c:33 in dump
+Shadow bytes around the buggy address:
+  0x007021380780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021380790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213807a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213807b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070213807c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0070213807d0:[fa]fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070213807e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070213807f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021380800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021380810: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021380820: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==8698==ABORTING
+// n = 2
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "
+//
+
+type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// n = 4
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily 
+//
+
+in into resource-limited or embedded projects",
+  "repository":
+  {
+    "
+//
+
+
+type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "pl
+//
+
+	atforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+
+in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "atforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "pl
+//
+// n = 8
+{
+  "name": "jsmn",
+  "": "json"iptio
+//
+
+	n": "Min It : "jsmn",
+can be easily 
+// pass
+
+in into resource-limited or embed
+// pass
+
+	ded projects",
+  "repository":
+  {
+    "
+//
+
+
+type": "git",
+    "url": "hterge/jsm
+//
+
+
+	n.git"
+  },
+  "frameworks": "*",
+  "pl
+//
+
+
+	atforms": "*",
+  "examples": [
+    "exa
+//
+
+	mple/*.c"
+  ],
+  "exclude": "test"
+}
+*///
+
+n": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+
+{
+  "name": "jsmn",
+  "": "json"iptio in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily ded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedtype": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "n.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmatforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "plmple/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "exa
+
+// n = 16
+
+{
+  "name": "jsmn",
+//
+
+  "": "json"iptio
+// pass
+
+	n": "Min It : "jsm
+// pass
+
+	n",
+can be easily 
+// pass
+
+in into resource-
+// pass
+
+	limited or embed
+// pass
+
+	ded projects",
+  "
+//
+
+
+type": "git",
+    "ur
+//
+
+	l": "hterge/jsm
+//
+
+	n.git"
+  },
+  "frame
+//
+
+	works": "*",
+  "pl
+//
+
+	atforms": "*",
+  "e
+//
+
+	xamples": [
+    "exa
+//
+
+	mple/*.c"
+  ],
+  "ex
+*///
+
+	clude": "test"
+}
+"//
+
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+ n": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+// pass
+
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmin into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+// pass
+
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-ded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedrepository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "l": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "urn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameatforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "plxamples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "emple/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "exaclude": "test"
+}
+"//
+
+
+{
+  "name": "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "ex
+*///
+// n = 32
+
+{
+  "name": 
+//
+
+"jsmn",
+// pass
+
+  "": "jso
+//
+
+	n"iptio
+// pass
+
+	n": "Min 
+//
+
+	It : "jsm
+//
+
+	n",
+can b
+// pass
+
+	e easily 
+// pass
+
+in into re
+// pass
+
+source-
+// pass
+
+	limited 
+// pass
+
+	or embed
+// pass
+
+	ded proj
+// pass
+
+	ects",
+  "
+//
+
+    reposit
+// pass
+
+	ory":
+  {
+    "
+//
+
+type": "
+//
+
+	git",
+    "ur
+//
+
+	l": "hte
+//
+
+	rge/jsm
+// pass
+
+
+	n.git"
+  }
+//
+
+	,
+  "frame
+//
+
+	works":
+// pass
+
+	 "*",
+  "pl
+//
+
+	atforms"
+// pass
+
+	: "*",
+  "e
+//
+
+	xamples
+// pass
+		
+	": [
+    "e xa
+// pass
+
+	mple/*.
+*/// pass
+
+	c"
+  ],
+  "ex
+//
+
+	clude": 
+// pass
+
+	"test"
+}
+"//
+
+ "jsmn",
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": 
+  "": "json"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  n"iption": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+// pass
+
+{
+  "name": "jsmn",
+  "": "json": "Min It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+// pass
+
+
+{
+  "name": "jsmn",
+  "": "json"iptio/*n": "Min*/ It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// fail
+// chars : 221
+=================================================================
+==14094==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x000108f03e80 at pc 0x0001043ae5d4 bp 0x00016ba53110 sp 0x00016ba53108
+READ of size 4 at 0x000108f03e80 thread T0
+    #0 0x1043ae5d0 in dump jsondump.c:33
+    #1 0x1043ae554 in dump jsondump.c:44
+    #2 0x1043addbc in main jsondump.c:120
+    #3 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+0x000108f03e80 is located 0 bytes to the right of 512-byte region [0x000108f03c80,0x000108f03e80)
+allocated by thread T0 here:
+    #0 0x10480d1d8 in wrap_realloc+0x9c (libclang_rt.asan_osx_dynamic.dylib:arm64e+0x3d1d8)
+    #1 0x1043ade18 in main jsondump.c:113
+    #2 0x18585d42c in start+0x0 (libdyld.dylib:arm64e+0x1842c)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow jsondump.c:33 in dump
+Shadow bytes around the buggy address:
+  0x007021200780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021200790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070212007a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070212007b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0070212007c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0070212007d0:[fa]fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070212007e0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0070212007f0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021200800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021200810: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x007021200820: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+  Shadow gap:              cc
+==14094==ABORTING
+// n = 2
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type
+//
+
+
+	": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+// n = 4
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into 
+//
+
+resource-limited or embedded projects",
+  "repository":
+  {
+    "type
+//
+
+	": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "plat
+//
+
+	forms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into ": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "typeforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "plat
+
+//
+// n = 8
+
+{
+  "name": "jsmn",
+  "": "json"ipti
+//
+
+o It : "jsmn",
+can be easily in into 
+// pass
+
+resource-limited or embedded pr
+// pass
+
+	ojects",
+  "repository":
+  {
+    "type
+//
+
+	": "git",
+    "url": "hterge/jsmn.g
+//
+
+	it"
+  },
+  "frameworks": "*",
+  "plat
+//
+
+	forms": "*",
+  "examples": [
+    "exam
+//
+
+	ple/*.c"
+  ],
+  "exclude": "test"
+}
+*///
+
+o It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"ipti resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into ojects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into resource-limited or embedded pr": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "typeit"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+// pass
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.gforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platple/*.c"
+  ],
+  "exclude": "test"
+}
+*/
+//
+
+{
+  "name": "jsmn",
+  "": "json"iptio It : "jsmn",
+can be easily in into resource-limited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": "hterge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "exam
+//
+
+
+

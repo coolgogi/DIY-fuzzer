@@ -15,6 +15,9 @@ testcase:
 exec_all_dir:
 	gcc ./src/exec_test.c bin/runner.o -o ./bin/exec_test
 
+ddmin:
+	gcc ./src/ddmin_main.c ./bin/runner.o -o ./bin/ddmin
+
 
 clean:
 	rm bin/*
