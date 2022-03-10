@@ -20,7 +20,7 @@ main (int argc, char * argv[]) {
 
     int n = atoi(argv[3]);
 
-    char * s = reduce_to_complement("../bin/jsondump", argv[2], n);
+    char * s = reduce_to_complement("input/jsondump", argv[2], n);
     
     printf("%s\n", s);
     

@@ -9,7 +9,7 @@
 int
 main (int argc, char * argv[]) {
 
-    if (argc != 3) {
+    if (argc != 4) {
         fprintf(stderr, "invalid arguments");
     }
 
@@ -18,9 +18,11 @@ main (int argc, char * argv[]) {
         exit(errno);
     }
 
-    char * s = reduce_to_substring("../bin/jsondump", argv[2], 2);
+    int n = atoi(argv[3]);
+
+    char * s = reduce_to_substring("input/jsondump", argv[2], n);
     
     printf("%s\n", s);
-    
+
     return 0;
 }

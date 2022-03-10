@@ -30,7 +30,7 @@ split (char * path, int n) {
         ss[i] = (char * ) malloc (sizeof(char) * PATH_MAX);
         sprintf(ss[i], "%s%d%s", file_path, i, extension);
         
-        mode_t mode = S_IRWXU | S_IRGRP | S_IXGRP | S_IROTH | S_IXOTH ;
+        mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;
         creat(ss[i], mode);
 
         FILE * write_file = fopen(ss[i], "w");
