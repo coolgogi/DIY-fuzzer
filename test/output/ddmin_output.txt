@@ -1,19 +1,19 @@
 
-'name': 'jsmn'
-'keywords': 'json'
-'description': 'Minimalistic JSON parser/tokenizer in C. It : '
-jsmn": can
-be: easily
-integrated: into
-resource-limited: or
-embedded: projects"
-'repository': 
-  'type': 'git'
-  'url': 'https://github.com/zserge/jsmn.git'
+'': ''
+'': ''
+'': ''
+a: a
+a: a
+a: a
+a: a
+a: a
+'': 
+  '': ''
+  '': ''
+  '': ''
+  '': ''
 
-'frameworks': '*'
-'platforms': '*'
-'examples': 
-   - 'example/*.c'
+'': 
+   - ''
 
-'exclude': 'test'
+'': ''
