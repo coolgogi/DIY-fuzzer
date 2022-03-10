@@ -15,20 +15,20 @@ split (char * path, int n) {
 
     FILE * read_file = fopen(path, "r");
 
-    char * dir_path = (char *) malloc (sizeof(char) * PATH_MAX);
+    char * file_path = (char *) malloc (sizeof(char) * PATH_MAX);
     char * extension ;
 
     extension = strrchr(path, '.');
     size_t fileNameLengthWithoutExtension = strlen(path) - strlen(extension);
-    strncat(dir_path, path, fileNameLengthWithoutExtension);
+    strncat(file_path, path, fileNameLengthWithoutExtension);
 
     char ** ss ;
     ss = (char ** ) malloc (sizeof(char *) * n);
-    // char ss[n][PATH_MAX];
+
     for (int i = 0 ; i < n ; i ++ ) {
 
         ss[i] = (char * ) malloc (sizeof(char) * PATH_MAX);
-        sprintf(ss[i], "%s%d%s", dir_path, i, extension);
+        sprintf(ss[i], "%s%d%s", file_path, i, extension);
         
         mode_t mode = S_IRWXU | S_IRGRP | S_IXGRP | S_IROTH | S_IXOTH ;
         creat(ss[i], mode);
@@ -47,7 +47,7 @@ split (char * path, int n) {
 
     }
 
-    free(dir_path);
+    free(file_path);
     fclose(read_file);
     return ss ;
 }

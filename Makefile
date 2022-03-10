@@ -28,7 +28,7 @@ reduce_to_substring:
 
 reduce_to_complement:
 	gcc -c src/reduce_to_complement.c -o bin/complement.o
-	gcc src/complement_main.c bin/runner.o -o bin/complement
+	gcc src/complement_main.c bin/runner.o bin/split.o bin/complement.o -o bin/complement
 
 clean:
 	rm bin/*
