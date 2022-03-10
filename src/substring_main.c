@@ -20,7 +20,7 @@ main (int argc, char * argv[]) {
 
     int n = atoi(argv[3]);
 
-    char * s = reduce_to_substring("input/jsondump", argv[2], n);
+    char * s = reduce_to_substring(argv[1], argv[2], n);
     
     printf("%s\n", s);
 
