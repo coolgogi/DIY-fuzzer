@@ -44,7 +44,6 @@ split (char * path, int n) {
         }
 
         fclose(write_file);
-
     }
 
     free(file_path);
