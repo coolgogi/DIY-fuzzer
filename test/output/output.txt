@@ -344,3 +344,4528 @@ a: a
    - ''
 
 '': ''
+a''
+'': ''
+'': ''
+'': ''
+a: a
+'': 
+  '': ''
+  '': ''
+  '': ''
+  '': ''
+
+'': 
+   - ''
+
+'': ''
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+
+'': ''
+'': ''
+'': ''
+a: a
+a: a
+a: a
+a: a
+a: a
+'': 
+  '': ''
+  '': ''
+  '': 
+     - ''
+
+  '': ''
+
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'': ''
+'': ''
+'': ''
+a: a
+a: a
+a: a
+a: a
+a: a
+'': 
+  '': ''
+  '': ''
+  '': ''
+  '': ''
+
+'': 
+   - ''
+
+'': ''
+
+'': ''
+'': ''
+'': ''
+a: a
+a: a
+a: a
+a: a
+'': ''
+'': ''
+'': 
+   - ''
+
+'': ''
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+
+'': ''
+'': ''
+'': ''
+a: a
+a: a
+a: a
+a: a
+a: a
+'': 
+  '': ''
+  '': ''
+  '': ''
+  '': ''
+
+'': 
+   - ''
+
+'': ''
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'': ''
+'': ''
+'': ''
+a: a
+a: a
+a: a
+a: a
+'': ''
+'': ''
+'': 
+   - ''
+
+'': ''
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+
+'': ''
+'': ''
+'': ''
+a: a
+a: a
+a: a
+a: a
+a: a
+'': 
+  '': ''
+  '': ''
+  '': ''
+  '': ''
+
+'': 
+   - ''
+
+'': ''
+
+'': ''
+'': ''
+'': ''
+a: a
+a: a
+a: a
+a: a
+a: a
+'': 
+  '': ''
+  '': ''
+  '': ''
+  '': ''
+
+'': 
+   - ''
+
+'': ''
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+nJSONneasilyresource-limitedMinimalisticJSON/tokenizersmn"easilygratedresource-limitedddedame"'jsmn'eywordson"criptiMinimalisticJSONparser/tokenizernsmn"caneasilygratedintoresource-limitedrddedrojects"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+nJSONneasilyresource-limited
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+'description'asily
+'name': 'jsmn'
+'keywords': 'json'
+asily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  om/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'keywords'tilysource-limitede"
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+t: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. Iily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: eassource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+redded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embeository": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'typ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+y"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": cay"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repositor ': platforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'description'n
+'name': 'jsmn'
+'keywords': 'json'
+n: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": caited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limy": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+'keywords'nnedited'git''frameworks''platforms'
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+n: C.
+It: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": caed
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integratited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limjects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: proy"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': ge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'y"y"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": cay"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repositor ': platforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'description'ny"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": cay"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repositor ': platforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'description'ny"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": cay"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repositor ': platforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'description'n
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'

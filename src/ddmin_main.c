@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../include/runner.h"
+#include "../include/ddmin.h"
 #include <errno.h>
 #include <unistd.h>
+#include <limits.h>
+#include <sys/stat.h>
 
 int
 main (int argc, char * argv[]) {
@@ -17,8 +20,11 @@ main (int argc, char * argv[]) {
 		exit(errno);
 	}
 
-	EXITCODE rt ;
-	rt = runner(argv[1], argv[2], argv[3]);
+	if (access(argv[2], R_OK) == -1) {
+		perror("");
+		exit(errno);
+	}
 
-	return 0;
+	char * rt = ddmin(argv[1], argv[2]);
+	printf("result : %s\n", rt);
 }

@@ -1,5 +1,9 @@
 all:
 	gcc -c src/runner.c -o bin/runner.o
+	gcc -c src/split.c -o bin/split.o
+	gcc -c src/reduce_to_substring.c -o bin/substring.o
+	gcc -c src/reduce_to_complement.c -o bin/complement.o
+	gcc -c src/ddmin.c -o bin/ddmin.o
 	gcc -c src/read_exec_dir.c -o bin/read_exec_dir.o
 	gcc src/main.c bin/runner.o bin/read_exec_dir.o -o bin/main
 
@@ -16,18 +20,15 @@ exec_all_dir:
 	gcc src/exec_test.c bin/runner.o -o bin/exec_test
 
 ddmin:
-	gcc src/ddmin_main.c bin/runner.o -o bin/ddmin
+	gcc src/ddmin_main.c bin/ddmin.o bin/runner.o bin/split.o bin/complement.o bin/substring.o -o bin/ddmin
 
 split:
-	gcc -c src/split.c -o bin/split.o
 	gcc src/split_main.c bin/split.o -o bin/split
 
 reduce_to_substring:
-	gcc -c src/reduce_to_substring.c -o bin/substring.o
 	gcc src/substring_main.c bin/runner.o bin/split.o bin/substring.o -o bin/substring
 
 reduce_to_complement:
-	gcc -c src/reduce_to_complement.c -o bin/complement.o
 	gcc src/complement_main.c bin/runner.o bin/split.o bin/complement.o -o bin/complement
 
 clean:

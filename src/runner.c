@@ -56,7 +56,7 @@ runner (char * exec, char * input, char * output) {
         cur = time(0);
         start = time(0);
 
-        while (cur - start < 10) {
+        while (cur - start < 1) {
             cur = time(0);
         }
 

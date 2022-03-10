@@ -12,7 +12,7 @@ split (char * path, int n) {
     struct stat st;
     stat(path, &st);
     int size = (int) ceil((double)st.st_size / n) ;
-
+    
     FILE * read_file = fopen(path, "r");
 
     char * file_path = (char *) malloc (sizeof(char) * PATH_MAX);
@@ -20,15 +20,15 @@ split (char * path, int n) {
 
     extension = strrchr(path, '.');
     size_t fileNameLengthWithoutExtension = strlen(path) - strlen(extension);
-    strncat(file_path, path, fileNameLengthWithoutExtension);
+    strncpy(file_path, path, fileNameLengthWithoutExtension);
 
     char ** ss ;
-    ss = (char ** ) malloc (sizeof(char *) * n);
+    ss = (char **) malloc (sizeof(char *) * n);
 
     for (int i = 0 ; i < n ; i ++ ) {
 
-        ss[i] = (char * ) malloc (sizeof(char) * PATH_MAX);
-        sprintf(ss[i], "%s%d%s", file_path, i, extension);
+        ss[i] = (char *) malloc (sizeof(char) * PATH_MAX);
+        sprintf(ss[i], "%s_%d%s", file_path, i, extension);
         
         mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;
         creat(ss[i], mode);
