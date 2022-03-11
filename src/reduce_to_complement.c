@@ -24,6 +24,7 @@ reduce_to_complement(char * executeFile_path, char * input_file_path, char ** su
     
         sprintf(sub_complement[i], "%s-%d%s", fileName, i, extension); 
         mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;
+        
         int fp = creat(sub_complement[i], mode);
 
         FILE * write_file = fopen(sub_complement[i], "wa");

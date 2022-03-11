@@ -27,9 +27,9 @@ split (char * input_file_path, int n) {
 
     char ** ss ;
     ss = (char **) malloc (sizeof(char *) * n); //
-    int num_of_ss = 0;
+
     for (int i = 0 ; i < n ; i ++ ) {
-        printf("substring%d\n", num_of_ss++);
+
         ss[i] = (char *) malloc (sizeof(char) * PATH_MAX); //
         sprintf(ss[i], "%s_%d%s", fileName, i, extension); //
         

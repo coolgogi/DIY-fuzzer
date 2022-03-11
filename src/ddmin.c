@@ -19,12 +19,12 @@ ddmin (char * execute_file_path, char * input_file_path) {
 	struct stat st;
 
 	do {
-		printf("num : %d\n",n);
 		stat(current_file_path, &st);
 		file_size = st.st_size;
 		if (n > file_size) {
 			n = file_size;
 		}
+		printf("num : %d\n",n);
         
 		char ** substrings = split(current_file_path, n);
 

@@ -12,12 +12,11 @@ reduce_to_substring (char * executeFile_path, char * input_file_path, char ** su
         
         EXITCODE rt = runner(executeFile_path, substrings[i], "output/output.txt");
         if(rt.valid == INVALID) {
-            for (int j = i + 1; j < n ; j ++) {
-                remove(substrings[j]);
-            }
+            // for (int j = i + 1; j < n ; j ++) {
+            //     remove(substrings[j]);
+            // }
             return substrings[i];
         }
-        remove(substrings[i]);
     }
     return input_file_path;
 }

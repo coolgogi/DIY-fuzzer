@@ -33767,3 +33767,93 @@ iption": ''
 jasily: i
 into: reited
 or: embedded
+nJSONneasilyresource-limited//github.com/zserge/jsms"MinimalisticJSON/tokenizersmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"ame"'jsmn'eywordson"criptiMinimalisticJSONparser/tokenizernsmn"caneasilygratedintoresource-limitedrddedrojects"itory"ype"'git'url"//github.com/zserge/jsmn.git"mework',
+  'platforms"'*'ples"ple/*.xclude': 'amemn"eywords"sondescription"MinimalisticJSONparser/tokenizern.tsmncanbeeasilyntegratedintoresource-limitedrmbeddedrojects"pository"ypet"urltps//github.com/zserge/jsmn.git"frameworks"platforms'*'xamples"xample/*.c"xcludest"ame"smn"eywords"son"escriptionMinimalisticJSONparser/tokenizerinC.Itsmn"canbeeasilyintegratedintoresource-limitedorembeddedprojects"epository"ype"iturl"ttps//github.com/zserge/jsmn.git"rameworks"ame"smn"eywords"son"escriptionMinimalisticJSONparser/tokenizerinC.Itsmn"canbeeasilyintegratedintoresource-limitedorembeddedprojects"epository"ype"iturl"ttps//github.com/zserge/jsmn.git"rameworks"platforms"examplesexample/*.c"xcludetest
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
