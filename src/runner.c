@@ -57,12 +57,15 @@ runner (char * exec, char * input, char * output) {
         start = time(0);
 
         while (cur - start < 1) {
-            cur = time(0);
+			w = waitpid(child_pid, &status, WNOHANG) ;
+			if (w != 0)
+				break ;
         }
-
-        kill(child_pid, SIGKILL);
-        w = waitpid(child_pid, &status, 0);
-        
+        if (cur - start >= 1) {
+			kill(child_pid, SIGKILL);
+        	w = waitpid(child_pid, &status, 0);
+		}
+       
         if (w == -1) {
             perror("");
             rt.code_num = errno;
