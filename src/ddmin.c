@@ -12,33 +12,32 @@ char *
 ddmin (char * execute_file_path, char * input_file_path) {
 
 	int n = 2;
-	int file_size ;
-	char * _input_file = (char *) malloc (sizeof(char) * PATH_MAX);
-	strcpy(s, input_file_path);
-    char * result_file_path ;
+	int file_size;
+	char * current_file_path = (char *) malloc (sizeof(char) * PATH_MAX);
+	strcpy(current_file_path, input_file_path);
+    char * result_file_path;
 	struct stat st;
-	char ** ss ;
 
 	do {
 		printf("num : %d\n",n);
-		stat(s, &st);
+		stat(current_file_path, &st);
 		file_size = st.st_size;
 		if (n > file_size) {
-			n = file_size ;
+			n = file_size;
 		}
         
-		result_file_path = reduce_to_substring(execute_file_path, s, n);
-		if (strcmp(s, result_file_path) != 0) {
-			strcpy(s, result_file_path);
-			n = 2 ;
+		result_file_path = reduce_to_substring(execute_file_path, current_file_path, n);
+		if (strcmp(current_file_path, result_file_path) != 0) {
+			strcpy(current_file_path, result_file_path);
+			n = 2;
 			free(result_file_path);
 		}
 		else {
         
-			result_file_path = reduce_to_complement(execute_file_path, s, n);
+			result_file_path = reduce_to_complement(execute_file_path, current_file_path, n);
 			printf("result of complement : %s\n", result_file_path);
-			if (strcmp(s, result_file_path) != 0) {
-				strcpy(s, result_file_path);
+			if (strcmp(current_file_path, result_file_path) != 0) {
+				strcpy(current_file_path, result_file_path);
 				n = 2;
 				free(result_file_path);
 			}
@@ -46,8 +45,8 @@ ddmin (char * execute_file_path, char * input_file_path) {
 				n = n * 2;
 			}
 		}
-		printf("result :%s\n", s);
+		printf("result :%s\n", current_file_path);
 	} 
-    while (file_size > 1 && file_size != n * 2) ;
-	return s;
+    while (file_size > 1 && file_size != n * 2);
+	return current_file_path;
 }
