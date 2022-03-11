@@ -33857,3 +33857,9079 @@ itory":
 'exclude': 'test'
 : 
 : 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+'description'asily
+'name': 'jsmn'
+'keywords': 'json'
+asily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  om/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'keywords'tilysource-limitede"
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+t: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. Iily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: eassource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+redded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embeository": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'typ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+y"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": cay"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repositor ': platforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'description'n
+'name': 'jsmn'
+'keywords': 'json'
+n: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": caited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limy": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+'keywords'nnedited'git''frameworks''platforms'
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+n: C.
+It: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": caed
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integratited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limjects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: proy"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': ge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': 'keywords'
+'json': 'description'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+ily
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': atforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+ription"ilyembedded
+'name': 'jsmn'
+s": 'json'
+'descily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: eas
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+'jsmn'ysource-limitedbedded'type''url'': [
+    '
+'name': 'jsmn'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'descr': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : y integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easilsource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+rebedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+em"repository": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platform': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': 'description'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+'n C. It : 'grated'type'
+'name': 'jsmn'
+s": 'json'
+iption": grated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+inteed: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"'n C. It : 'cangratede-limited'type''url'
+'name': 'jsmn'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": grated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+intee-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resourced: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embeddpository": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworrms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platfoles': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': iption"
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+n: C.
+It: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+''nto'git'
+'name': 'jsmn'
+s": 'json'
+iption"nto: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: iects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"''silyoors"it"'frameworks''platforms'
+'name': 'jsmn'
+'': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": sily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: eao
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: intor
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: s"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: project
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'ge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+t": 
+: 
+: 
+: 
+'jsmn's"'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': iption"
+'': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'jsmn': can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": cay
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easiled
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integratsource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+n"ed'git'
+'name': 'jsmn'
+s": 'json'
+iptioed: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrat": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"': 'easilyintobedded'repository'',
+    ''frameworks''example/*.c'
+'name': 'jsmn'
+': ': 'jsmn'
+can: be
+easily: integrated
+into: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integratedbedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+em: 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+',
+  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+
+'exclude': 'test'
+: 
+: 
+: 
+': 'on"iptioneasilyntegratedintotedbeddedojects"tory"',
+    'rl"/jsmn.gitks"',
+  'mple/*.c"exclude"
+'name,
+s': 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+on"iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'js'
+'': jsmn"
+can: be
+easily: integrated
+into: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn: easily
+integrated: into
+reited: or
+embedded: projects"
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+bentegrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+on"'frameworks'
+'name': 'jsmn'
+s": 'json'
+ipti: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: intorepository"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+',
+s'on"bereited'type''url'',
+  '': [
+    '
+'name': 'jsmnon'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ipti: be
+easily: i
+into: reited
+or: embedded
+projects": 'repository'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: intoed
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embeddrepository": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+
+/jsmn.git": 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+',
+  ': platforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '* '
+*": 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+': 'on"iptioneasilyintotedbeddedojects"tory"',
+    'rl"/jsmn.gitks"',
+  'mple/*.c"exclude"
+'name,
+s': 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+on"iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'js'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn: easily
+i: into
+reited: or
+embedded: projects"
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+ited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reibedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+emojects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+ion"
+'name': 'jsmn'
+s": 'json'
+iptto: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: intory"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'fr': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+',
+s'on"bereitedl"'
+  },
+  '
+'name': 'jsmnon'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ipti: be
+easily: i
+into: reited
+or: embedded
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: intoed
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embeddy": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'typel': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'ur': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'framewotforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'plaexamples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+est": 
+: 
+: 
+: 
+': 'on"iptioneasilyintotedbeddedtory"',
+    'rl"/jsmn.gitks"',
+  'mple/*.c"exclude"
+'name,
+s': 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+on"iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'js'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn: easily
+i: into
+reited: or
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+ited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reibedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+em: 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: prtory"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'ty': 'url'
+  erge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'gitrl'
+
+erge/jsmn.git": 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'u/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+tion"orks"
+'name': 'jsmn'
+s": 'json'
+ipinto: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: ository"
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'framew  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'
+  ],
+  ': exclude"
+'test': 
+: 
+: 
+: 
+n"tion"caninto'type''url''
+  },
+  'latforms"'
+  ],
+  '
+'name': 'jsmtion'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ipcan: be
+easily: i
+into: reited
+or: embedded
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: mbedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+eository": 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'framewlatforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'p  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+n"'json''jsmn'canasilyintotedmbeddedository"'type''git'l"latforms': 'mple/*.c
+'namn': s"
+'json': iption"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsm'
+json"iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": tion"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ip"jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'can be easily i into reited or embedded pr  '
+repository": 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": asily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: einto
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: ted
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reimbedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+epr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: ository"
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'git': 'url'
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'url'
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+'description'asily
+'name': 'jsmn'
+'keywords': 'json'
+asily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  om/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'keywords'tilysource-limitede"
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+t: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. Iily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: eassource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+redded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embeository": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'typ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+y"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": cay"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repositor ': platforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'description'n
+'name': 'jsmn'
+'keywords': 'json'
+n: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": caited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limy": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+'keywords'nnedited'git''frameworks''platforms'
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+n: C.
+It: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": caed
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integratited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limjects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: proy"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': ge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': 'keywords'
+'json': 'description'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+ily
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': atforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+ription"ilyembedded
+'name': 'jsmn'
+s": 'json'
+'descily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: eas
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+'jsmn'ysource-limitedbedded'type''url'': [
+    '
+'name': 'jsmn'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'descr': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : y integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easilsource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+rebedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+em"repository": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platform': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': 'description'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+'n C. It : 'grated'type'
+'name': 'jsmn'
+s": 'json'
+iption": grated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+inteed: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"'n C. It : 'cangratede-limited'type''url'
+'name': 'jsmn'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": grated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+intee-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resourced: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embeddpository": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworrms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platfoles': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': iption"
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+n: C.
+It: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+''nto'git'
+'name': 'jsmn'
+s": 'json'
+iption"nto: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: iects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"''silyoors"it"'frameworks''platforms'
+'name': 'jsmn'
+'': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": sily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: eao
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: intor
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: s"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: project
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'ge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+t": 
+: 
+: 
+: 
+'jsmn's"'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': iption"
+'': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'jsmn': can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": cay
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easiled
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integratsource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+n"ed'git'
+'name': 'jsmn'
+s": 'json'
+iptioed: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrat": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"': 'easilyintobedded'repository'',
+    ''frameworks''example/*.c'
+'name': 'jsmn'
+': ': 'jsmn'
+can: be
+easily: integrated
+into: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integratedbedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+em: 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+',
+  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+
+'exclude': 'test'
+: 
+: 
+: 
+': 'on"iptioneasilyntegratedintotedbeddedojects"tory"',
+    'rl"/jsmn.gitks"',
+  'mple/*.c"exclude"
+'name,
+s': 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+on"iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'js'
+'': jsmn"
+can: be
+easily: integrated
+into: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn: easily
+integrated: into
+reited: or
+embedded: projects"
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+bentegrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+description"can
+'name': 'jsmn'
+'keywords': 'json'
+'can be easily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": d
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  .com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+ticnnintor': '
+'name': 'jsmn'
+'escription': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'dticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisn be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": cainto
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: r
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: o
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  ': ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'urlzserge/jsmn.git': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+platforms": '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'mples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+Minimalisticsmn"easilygratedresource-limiteddded'type'//github.com/zserge/jsmplatforms"
+'name': eywords"
+'json': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'kson': 'description'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'jcription'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'desMinimalisticn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+'description'asily
+'name': 'jsmn'
+'keywords': 'json'
+asily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  om/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'keywords'tilysource-limitede"
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+t: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. Iily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: eassource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+redded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embeository": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'typ': https
+  //github.com/zserge/jsmn.git": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+y"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": cay"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repositor ': platforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+'description'n
+'name': 'jsmn'
+'keywords': 'json'
+n: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": caited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limy": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+'keywords'nnedited'git''frameworks''platforms'
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+n: C.
+It: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": caed
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integratited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limjects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: proy"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': ge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': 'keywords'
+'json': 'description'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+ily
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': atforms"
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+ription"ilyembedded
+'name': 'jsmn'
+s": 'json'
+'descily integrated into resource-limited or embedded projects': 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: eas
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+'jsmn'ysource-limitedbedded'type''url'': [
+    '
+'name': 'jsmn'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'descr': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : y integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easilsource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+rebedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+em"repository": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platform': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': 'description'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'description': 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+'n C. It : 'grated'type'
+'name': 'jsmn'
+s": 'json'
+iption": grated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+inteed: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"'n C. It : 'cangratede-limited'type''url'
+'name': 'jsmn'
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": grated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+intee-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resourced: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embeddpository": 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  t": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworrms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platfoles': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+'jsmn's"n'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': iption"
+'n C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+iption": 'n C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+n: C.
+It: 'jsmn'
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+''nto'git'
+'name': 'jsmn'
+s": 'json'
+iption"nto: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: iects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"''silyoors"it"'frameworks''platforms'
+'name': 'jsmn'
+'': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": sily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: eao
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: intor
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: s"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: project
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'ge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+t": 
+: 
+: 
+: 
+'jsmn's"'jsmn'nyedsource-limitedbeddedjects"'type''git''url'ge/jsmn.gis"s"': [
+    'example/*.'exclude'
+'name': s"
+'json': iption"
+'': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+'jsmn': can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'n be easily integrated into resource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": cay
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easiled
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integratsource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+n"ed'git'
+'name': 'jsmn'
+s": 'json'
+iptioed: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrat": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+s"': 'easilyintobedded'repository'',
+    ''frameworks''example/*.c'
+'name': 'jsmn'
+': ': 'jsmn'
+can: be
+easily: integrated
+into: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integratedbedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+em: 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+',
+  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+
+'exclude': 'test'
+: 
+: 
+: 
+': 'on"iptioneasilyntegratedintotedbeddedojects"tory"',
+    'rl"/jsmn.gitks"',
+  'mple/*.c"exclude"
+'name,
+s': 'json'
+iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+on"iption": ''
+jsmn": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'js'
+'': jsmn"
+can: be
+easily: integrated
+into: reited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': erge/jsmn.git"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": can
+be: easily
+integrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn: easily
+integrated: into
+reited: or
+embedded: projects"
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+bentegrated: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': erge/jsmn.git"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
