@@ -26,5 +26,5 @@ main (int argc, char * argv[]) {
 	}
 
 	char * rt = ddmin(argv[1], argv[2]);
-	printf("result : %s\n", rt);
+	printf("result file path : %s\n", rt);
 }

@@ -8,16 +8,16 @@
 #include <limits.h>
 
 char * 
-reduce_to_complement(char * executeFile_path, char * s, int n) {
+reduce_to_complement(char * executeFile_path, char * input_file_path, int n) {
     
-    char ** ss = split(s, n);
+    char ** substrings = split(input_file_path, n);
     char ** sub_complement = (char **) malloc (sizeof(char *) * n); //
 
-    char * extension = strrchr(s, '.');
+    char * extension = strrchr(input_file_path, '.');
     char * fileName = (char *) malloc (sizeof(char) * PATH_MAX); //
 
-    size_t fileNameLengthWithoutExtension = strlen(s) - strlen(extension);
-    strncpy(fileName, s, fileNameLengthWithoutExtension);
+    size_t fileNameLengthWithoutExtension = strlen(input_file_path) - strlen(extension);
+    strncpy(fileName, input_file_path, fileNameLengthWithoutExtension);
     
     for (int i = 0 ; i < n ; i ++) {
         sub_complement[i] = (char *) malloc (sizeof(char) * PATH_MAX); //
@@ -33,7 +33,7 @@ reduce_to_complement(char * executeFile_path, char * s, int n) {
             }
 
             unsigned char buf;
-            FILE * read_file = fopen(ss[j], "r");
+            FILE * read_file = fopen(substrings[j], "r");
             while (fread(&buf, 1, 1, read_file) == 1) {
                 fwrite(&buf, 1, 1, write_file);
             }
@@ -45,14 +45,17 @@ reduce_to_complement(char * executeFile_path, char * s, int n) {
         if(rt.valid == INVALID) {
             
             free(fileName);
-            free(ss);
+            free(substrings);
+            for (int j = i + 1 ; j < n ; j ++) {
+                free(sub_complement[j]);
+            }
             return sub_complement[i];
         }
         remove(sub_complement[i]);
         free(sub_complement[i]);
     }
-    free(ss);
+    free(substrings);
     free(fileName);
     free(sub_complement);
-    return s;
+    return input_file_path;
 }

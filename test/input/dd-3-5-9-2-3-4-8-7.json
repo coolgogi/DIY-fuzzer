@@ -1,7 +1,7 @@
 {
   "name": "jsmn",
 s": "json"iption": ""jsmn",
-can be easily integrated into reited or embedded projects",
+can be easily i into reited or embedded projects",
   "repository":
   {
     "type": "git",
@@ -10,6 +10,7 @@ can be easily integrated into reited or embedded projects",
   "frameworks": "*",
   "platforms": "*",
   "examples": [
+    "example/*.c"
   ],
   "exclude": "test"
 }

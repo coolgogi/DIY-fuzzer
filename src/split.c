@@ -7,21 +7,21 @@
 #include <limits.h>
 
 char **
-split (char * path, int n) {
+split (char * input_file_path, int n) {
     
     struct stat st;
-    stat(path, &st);
+    stat(input_file_path, &st);
     int size = (int) ceil((double)st.st_size / n);
     
-    FILE * read_file = fopen(path, "r");
+    FILE * read_file = fopen(input_file_path, "r");
 
     char * fileName = (char *) malloc (sizeof(char) * PATH_MAX); //
     memset(fileName, 0, PATH_MAX);
     char * extension ;
-    extension = strrchr(path, '.');
+    extension = strrchr(input_file_path, '.');
 
-    size_t fileNameLengthWithoutExtension = strlen(path) - strlen(extension);
-    strncpy(fileName, path, fileNameLengthWithoutExtension);
+    size_t fileNameLengthWithoutExtension = strlen(input_file_path) - strlen(extension);
+    strncpy(fileName, input_file_path, fileNameLengthWithoutExtension);
     
     char ** ss ;
     ss = (char **) malloc (sizeof(char *) * n); //
@@ -29,8 +29,6 @@ split (char * path, int n) {
     for (int i = 0 ; i < n ; i ++ ) {
 
         ss[i] = (char *) malloc (sizeof(char) * PATH_MAX); //
-        strcpy(ss[i], fileName);
-        strcat(ss[i], "_");
         sprintf(ss[i], "%s_%d%s", fileName, i, extension); //
         
         mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;

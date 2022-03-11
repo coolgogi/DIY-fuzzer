@@ -6,18 +6,23 @@
 #include <string.h>
 
 char * 
-reduce_to_substring (char * executeFile_path, char * s, int n) {
+reduce_to_substring (char * executeFile_path, char * input_file_path, int n) {
     
-    char ** ss = split(s, n);
+    char ** substrings = split(input_file_path, n);
     
     for (int i = 0 ; i < n ; i ++ ) {
         
-        EXITCODE rt = runner(executeFile_path, ss[i], "output/output.txt");
+        EXITCODE rt = runner(executeFile_path, substrings[i], "output/output.txt");
         if(rt.valid == INVALID) {
-            return ss[i];
+            for (int j = i + 1; j < n ; j ++) {
+                remove(substrings[j]);
+                free(substrings[j]);
+            }
+            return substrings[i];
         }
-        remove(ss[i]);
+        remove(substrings[i]);
+        free(substrings[i]);
     }
-    free(ss);
-    return s;
+    free(substrings);
+    return input_file_path;
 }
