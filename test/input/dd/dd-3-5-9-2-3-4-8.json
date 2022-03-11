@@ -1,0 +1,16 @@
+{
+  "name": "jsmn",
+s": "json"iption": ""jsmn",
+can be easily integrated into reited or embedded projects",
+  "repository":
+  {
+    "type": "git",
+    "url": erge/jsmn.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}

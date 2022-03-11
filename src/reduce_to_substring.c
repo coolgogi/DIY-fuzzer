@@ -14,11 +14,8 @@ reduce_to_substring (char * executeFile_path, char * s, int n) {
         
         EXITCODE rt = runner(executeFile_path, ss[i], "output/output.txt");
         if(rt.valid == INVALID) {
-            for (int j = i + 1 ; j < n ; j ++) {
-                remove(ss[j]);
-            }
             return ss[i];
-           }
+        }
         remove(ss[i]);
     }
     free(ss);

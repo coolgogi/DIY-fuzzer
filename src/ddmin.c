@@ -13,37 +13,40 @@ ddmin (char * execute_file_path, char * input_file_path) {
 
 	int n = 2;
 	int size ;
+	char * s = (char *) malloc (sizeof(char) * PATH_MAX);
+	strcpy(s, input_file_path);
     char * result_file_path ;
 	struct stat st;
 	char ** ss ;
 
 	do {
-		stat(input_file_path, &st);
+		printf("num : %d\n",n);
+		stat(s, &st);
 		size = st.st_size;
-        printf("n : %d\npath : %s\n", n, input_file_path);
 		if (n > size) {
 			n = size ;
 		}
         
-		result_file_path = reduce_to_substring(execute_file_path, input_file_path, n);
-        
-		if (strcmp(input_file_path, result_file_path) != 0) {
-			strcpy(input_file_path, result_file_path);
+		result_file_path = reduce_to_substring(execute_file_path, s, n);
+		if (strcmp(s, result_file_path) != 0) {
+			strcpy(s, result_file_path);
 			n = 2 ;
+			free(result_file_path);
 		}
 		else {
         
-			result_file_path = reduce_to_complement(execute_file_path, input_file_path, n);
-    
-			if (strcmp(input_file_path, result_file_path) != 0) {
-				strcpy(input_file_path, result_file_path);
+			result_file_path = reduce_to_complement(execute_file_path, s, n);
+			if (strcmp(s, result_file_path) != 0) {
+				strcpy(s, result_file_path);
 				n = 2;
+				free(result_file_path);
 			}
 			else {
 				n = n * 2;
 			}
 		}
+		printf("result : %s\n", result_file_path);
 	} 
     while (size > 1 && size != n * 2) ;
-	return input_file_path;
+	return s;
 }

@@ -11,22 +11,22 @@ char *
 reduce_to_complement(char * executeFile_path, char * s, int n) {
     
     char ** ss = split(s, n);
-    char ** sub_complement = (char **) malloc (sizeof(char *) * n); 
+    char ** sub_complement = (char **) malloc (sizeof(char *) * n); //
 
     char * extension = strrchr(s, '.');
-    char * fileName = (char *) malloc (sizeof(char) * PATH_MAX);
+    char * fileName = (char *) malloc (sizeof(char) * PATH_MAX); //
+
     size_t fileNameLengthWithoutExtension = strlen(s) - strlen(extension);
     strncpy(fileName, s, fileNameLengthWithoutExtension);
-
+    
     for (int i = 0 ; i < n ; i ++) {
-        sub_complement[i] = (char *) malloc (sizeof(char) * PATH_MAX);
-        sprintf(sub_complement[i], "%s_-%d%s", fileName, i, extension); 
-
+        sub_complement[i] = (char *) malloc (sizeof(char) * PATH_MAX); //
+    
+        sprintf(sub_complement[i], "%s-%d%s", fileName, i, extension); 
         mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;
         creat(sub_complement[i], mode);
 
         FILE * write_file = fopen(sub_complement[i], "wa");
-
         for(int j = 0 ; j < n ; j ++) {
             if (i == j) {
                 continue;
@@ -45,13 +45,11 @@ reduce_to_complement(char * executeFile_path, char * s, int n) {
         if(rt.valid == INVALID) {
             
             free(fileName);
-            for (int j = i + 1 ; j < n ; j ++) {
-                remove(sub_complement[j]);
-            }
             free(ss);
             return sub_complement[i];
         }
         remove(sub_complement[i]);
+        free(sub_complement[i]);
     }
     free(ss);
     free(fileName);
