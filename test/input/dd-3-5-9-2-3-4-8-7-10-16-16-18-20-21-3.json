@@ -1,0 +1,13 @@
+{
+  "name": "jsmn",
+s": "json"iption": ""jasily i into reited or embedded pr  "repository":
+  {
+    "type": "git",l": erge"
+  },
+ orks": "*",
+  "p": "*",
+les": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}

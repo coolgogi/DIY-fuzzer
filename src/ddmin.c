@@ -34,9 +34,8 @@ ddmin (char * execute_file_path, char * input_file_path) {
 			n = 2;
 			free(result_file_path);
 		}
-
 		else {
-        
+			
 			result_file_path = reduce_to_complement(execute_file_path, current_file_path, substrings, n);
 			printf("result of complement : %s\n", result_file_path);
 			if (strcmp(current_file_path, result_file_path) != 0) {
@@ -48,10 +47,10 @@ ddmin (char * execute_file_path, char * input_file_path) {
 				n = n * 2;
 			}
 		}
-		printf("result :%s\n", current_file_path);
-		for (int i = 0 ; i < n ; i ++) {
-			free(substrings[i]);
-		}
+		// for (int i = 0 ; i < n ; i ++) {
+		// 	free(substrings[i]);
+		// }
+		
 		free(substrings);
 	} 
     while (file_size > 1 && file_size != n * 2);

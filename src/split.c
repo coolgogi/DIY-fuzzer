@@ -5,6 +5,8 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <limits.h>
+#include <unistd.h>
+
 
 char **
 split (char * input_file_path, int n) {
@@ -22,7 +24,7 @@ split (char * input_file_path, int n) {
 
     size_t fileNameLengthWithoutExtension = strlen(input_file_path) - strlen(extension);
     strncpy(fileName, input_file_path, fileNameLengthWithoutExtension);
-    
+
     char ** ss ;
     ss = (char **) malloc (sizeof(char *) * n); //
 
@@ -32,17 +34,26 @@ split (char * input_file_path, int n) {
         sprintf(ss[i], "%s_%d%s", fileName, i, extension); //
         
         mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;
-        creat(ss[i], mode);
+        int fp = creat(ss[i], mode);
+        
 
         FILE * write_file = fopen(ss[i], "w");
+        if (write_file == NULL) {
+            perror("fopen NULL");
+            exit(EXIT_FAILURE);
+        }
         for (int j = 0 ; j < size ; j ++) {
             unsigned char buf;
+
             if (fread(&buf, 1, 1, read_file) != 1) {
                 break ;
             }
             fwrite(&buf, 1, 1, write_file);
         }
+
         fclose(write_file);
+        close(fp);
+        
     }
 
     free(fileName);

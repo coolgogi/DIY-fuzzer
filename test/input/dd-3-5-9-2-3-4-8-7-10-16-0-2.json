@@ -1,0 +1,9 @@
+",
+    "url": erge"
+  },
+  "fram"platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}

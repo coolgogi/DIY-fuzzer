@@ -1,0 +1,14 @@
+{
+  "name": "jsmn",
+s": "json"iption": ""jsmn",
+can be easily i into reited or embedded pr  "repository":
+  {
+    "type": "git",l": erge"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
