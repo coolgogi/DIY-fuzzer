@@ -5,6 +5,7 @@
 #include <string.h>
 #include <fcntl.h>
 #include <sys/stat.h>
+#include <unistd.h>
 #include <limits.h>
 
 char * 
@@ -23,7 +24,7 @@ reduce_to_complement(char * executeFile_path, char * input_file_path, char ** su
     
         sprintf(sub_complement[i], "%s-%d%s", fileName, i, extension); 
         mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;
-        creat(sub_complement[i], mode);
+        int fp = creat(sub_complement[i], mode);
 
         FILE * write_file = fopen(sub_complement[i], "wa");
         for(int j = 0 ; j < n ; j ++) {
@@ -39,6 +40,7 @@ reduce_to_complement(char * executeFile_path, char * input_file_path, char ** su
             fclose(read_file);
         }
         fclose(write_file);
+        close(fp);
 
         EXITCODE rt = runner(executeFile_path, sub_complement[i], "output/output.txt");
         if(rt.valid == INVALID) {
