@@ -6,9 +6,7 @@
 #include <string.h>
 
 char * 
-reduce_to_substring (char * executeFile_path, char * input_file_path, int n) {
-    
-    char ** substrings = split(input_file_path, n);
+reduce_to_substring (char * executeFile_path, char * input_file_path, char ** substrings, int n) {
     
     for (int i = 0 ; i < n ; i ++ ) {
         
@@ -16,13 +14,10 @@ reduce_to_substring (char * executeFile_path, char * input_file_path, int n) {
         if(rt.valid == INVALID) {
             for (int j = i + 1; j < n ; j ++) {
                 remove(substrings[j]);
-                free(substrings[j]);
             }
             return substrings[i];
         }
         remove(substrings[i]);
-        free(substrings[i]);
     }
-    free(substrings);
     return input_file_path;
 }

@@ -19239,3 +19239,2389 @@ embedded: pr
    - 'example/*.c'
 
 'exclude': 'test'
+tion"orks"
+'name': 'jsmn'
+s": 'json'
+ipinto: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: ository"
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'framew  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'
+  ],
+  ': exclude"
+'test': 
+: 
+: 
+: 
+n"tion"caninto'type''url''
+  },
+  'latforms"'
+  ],
+  '
+'name': 'jsmtion'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ipcan: be
+easily: i
+into: reited
+or: embedded
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: mbedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+eository": 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'framewlatforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'p  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+n"'json''jsmn'canasilyintotedmbeddedository"'type''git'l"latforms': 'mple/*.c
+'namn': s"
+'json': iption"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsm'
+json"iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": tion"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ip"jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'can be easily i into reited or embedded pr  '
+repository": 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": asily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: einto
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: ted
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reimbedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+epr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: ository"
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'git': 'url'
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'url'
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+'json'can'jsmn''json'': 'cany"git"
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily"git"
+l": erge"
+ame"'jsmn's"'json'iptionsmn"caneasily"git"l"rge"wo
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily"git"
+l": erge"
+amemn"son"iption''smncanbeeasily"git"l"ergeamewo
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily"git"
+l": erge"
+ption"s"
+'name': 'jsmn'
+s": 'json'
+ii: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+repository": 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'framework': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+n"tion"caninto'type'
+'name': 'jsmtion'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ipcan: be
+easily: i
+into: reited
+or: embedded
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: mbedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+eository": 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+*": 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': ''
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platformsles': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+t": 
+: 
+: 
+: 
+n"'json''jsmn'canasilyintotedmbeddedository"'type''git'l"latforms': 'mple/*.c
+'namn': s"
+'json': iption"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsm'
+json"iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": tion"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ip"jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'can be easily i into reited or embedded pr  '
+repository": 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": asily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: einto
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: ted
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reimbedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+epr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: ository"
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'git': l"
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': l"
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+orks": '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+iption"y
+'name': 'jsmn'
+s": 'json'
+y: i
+into: reited
+or: embedded
+pr: 'repository'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easil
+'repository': 
+  'type': 'git'
+  l": erge"
+
+orks": '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+orks": xamples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+orks": '*'
+'platforms': '*'
+'e  ],
+  ': exclude"
+'test': 
+: 
+: 
+: 
+mn"iption"yor'repository''git''example/*.c'
+'name': 'jsiption'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: orks"
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+',
+can be easily i into reited or embedded pr  ': repository"
+
+  'type': 'git'
+  l": erge"
+: orks"
+'*': 'platforms'
+'*': 'examples'
+ption"s"
+'name': 'jsmn'
+s": 'json'
+ii: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+repository": 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'framework': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+n"tion"caninto'type'
+'name': 'jsmtion'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ipcan: be
+easily: i
+into: reited
+or: embedded
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: mbedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+eository": 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+*": 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': ''
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platformsles': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+t": 
+: 
+: 
+: 
+n"'json''jsmn'canasilyintotedmbeddedository"'type''git'l"latforms': 'mple/*.c
+'namn': s"
+'json': iption"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsm'
+json"iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": tion"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ip"jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'can be easily i into reited or embedded pr  '
+repository": 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": asily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: einto
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: ted
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reimbedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+epr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: ository"
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'git': l"
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': l"
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+orks": '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+iption"y
+'name': 'jsmn'
+s": 'json'
+y: i
+into: reited
+or: embedded
+pr: 'repository'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easil
+'repository': 
+  'type': 'git'
+  l": erge"
+
+orks": '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+orks": xamples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+orks": '*'
+'platforms': '*'
+'e  ],
+  ': exclude"
+'test': 
+: 
+: 
+: 
+mn"iption"yor'repository''git''example/*.c'
+'name': 'jsiption'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: orks"
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+',
+can be easily i into reited or embedded pr  ': repository"
+
+  'type': 'git'
+  l": erge"
+: orks"
+'*': 'platforms'
+'*': 'examples'
+tion"orks"
+'name': 'jsmn'
+s": 'json'
+ipinto: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: ository"
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'framew  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'
+  ],
+  ': exclude"
+'test': 
+: 
+: 
+: 
+n"tion"caninto'type''url''
+  },
+  'latforms"'
+  ],
+  '
+'name': 'jsmtion'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ipcan: be
+easily: i
+into: reited
+or: embedded
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: mbedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+eository": 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'framewlatforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'p  ': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+n"'json''jsmn'canasilyintotedmbeddedository"'type''git'l"latforms': 'mple/*.c
+'namn': s"
+'json': iption"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsm'
+json"iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": tion"
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ip"jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": 'can be easily i into reited or embedded pr  '
+repository": 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": asily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: einto
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: ted
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reimbedded: pr
+'repository': 
+  'type': 'git'
+  'url': erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+epr: 'repository'
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: ository"
+
+  'type': 'git'
+  'url': erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'git': 'url'
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'url'
+  erge": 'frameworks'
+
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+ption"s"
+'name': 'jsmn'
+s": 'json'
+ii: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+repository": 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'framework': examples"
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+n"tion"caninto'type'
+'name': 'jsmtion'
+'': jsmn"
+can: be
+easily: i
+into: reited
+or: embedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+
+'name': 'jsmn'
+s": 'json'
+ipcan: be
+easily: i
+into: reited
+or: embedded
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": into
+reited: or
+embedded: pr
+'repository': 
+  'type': 'git'
+  l": erge"
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+
+'name': 'jsmn'
+s": 'json'
+iption": ''
+jsmn": can
+be: easily
+i: mbedded
+pr: 'repository'
+
+  'type': 'git'
+  l": erge"
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+tion"orks"n"tion"caninto'type''url''
+  },
+  'latforms"'
+  ],
+  'n"'json''jsmn'canasilyintotedmbeddedository"'type''git'l"latforms': 'mple/*.ce"n"s"n"ip

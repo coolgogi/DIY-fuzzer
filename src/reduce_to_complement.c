@@ -8,9 +8,8 @@
 #include <limits.h>
 
 char * 
-reduce_to_complement(char * executeFile_path, char * input_file_path, int n) {
+reduce_to_complement(char * executeFile_path, char * input_file_path, char ** substrings, int n) {
     
-    char ** substrings = split(input_file_path, n);
     char ** sub_complement = (char **) malloc (sizeof(char *) * n); //
 
     char * extension = strrchr(input_file_path, '.');
@@ -45,7 +44,6 @@ reduce_to_complement(char * executeFile_path, char * input_file_path, int n) {
         if(rt.valid == INVALID) {
             
             free(fileName);
-            free(substrings);
             for (int j = i + 1 ; j < n ; j ++) {
                 free(sub_complement[j]);
             }
@@ -54,7 +52,6 @@ reduce_to_complement(char * executeFile_path, char * input_file_path, int n) {
         remove(sub_complement[i]);
         free(sub_complement[i]);
     }
-    free(substrings);
     free(fileName);
     free(sub_complement);
     return input_file_path;

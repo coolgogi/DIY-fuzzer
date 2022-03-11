@@ -1,0 +1,10 @@
+",
+    "url": erge"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": [
+    "example/*.c"
+  ],
+  "exclude": "test"
+}
