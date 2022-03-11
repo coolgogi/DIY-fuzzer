@@ -11,7 +11,7 @@ reduce_to_substring (char * executeFile_path, char * input_file_path, char ** su
     for (int i = 0 ; i < n ; i ++ ) {
         
         EXITCODE rt = runner(executeFile_path, substrings[i], "output/output.txt");
-        if(rt.valid == INVALID) {
+        if(rt.code_num == 1) {
             // for (int j = i + 1; j < n ; j ++) {
             //     remove(substrings[j]);
             // }

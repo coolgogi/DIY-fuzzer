@@ -24,29 +24,31 @@ ddmin (char * execute_file_path, char * input_file_path) {
 		if (n > file_size) {
 			n = file_size;
 		}
-		printf("num : %d\n",n);
+		fprintf(stderr, "num : %d\n",n);
         
 		char ** substrings = split(current_file_path, n);
 
 		result_file_path = reduce_to_substring(execute_file_path, current_file_path, substrings, n);
 		if (strcmp(current_file_path, result_file_path) != 0) {
+			fprintf(stderr, "result of complement : %s\n", result_file_path);
+			strcpy(current_file_path, result_file_path);
+			n = 2;
+			free(result_file_path);
+			continue ;
+		}
+		
+			
+		result_file_path = reduce_to_complement(execute_file_path, current_file_path, substrings, n);
+		if (strcmp(current_file_path, result_file_path) != 0) {
+			fprintf(stderr, "result of complement : %s\n", result_file_path);
 			strcpy(current_file_path, result_file_path);
 			n = 2;
 			free(result_file_path);
 		}
 		else {
-			
-			result_file_path = reduce_to_complement(execute_file_path, current_file_path, substrings, n);
-			printf("result of complement : %s\n", result_file_path);
-			if (strcmp(current_file_path, result_file_path) != 0) {
-				strcpy(current_file_path, result_file_path);
-				n = 2;
-				free(result_file_path);
-			}
-			else {
-				n = n * 2;
-			}
+			n = n * 2;
 		}
+		
 		// for (int i = 0 ; i < n ; i ++) {
 		// 	free(substrings[i]);
 		// }

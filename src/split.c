@@ -24,13 +24,14 @@ split (char * input_file_path, int n) {
 
     size_t fileNameLengthWithoutExtension = strlen(input_file_path) - strlen(extension);
     strncpy(fileName, input_file_path, fileNameLengthWithoutExtension);
+    fileName[fileNameLengthWithoutExtension] = 0x0 ;
 
     char ** ss ;
     ss = (char **) malloc (sizeof(char *) * n); //
 
     for (int i = 0 ; i < n ; i ++ ) {
 
-        ss[i] = (char *) malloc (sizeof(char) * PATH_MAX); //
+        ss[i] = (char *) malloc (strlen(fileName) + strlen(extension) + 8); //
         sprintf(ss[i], "%s_%d%s", fileName, i, extension); //
         
         mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;

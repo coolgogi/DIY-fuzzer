@@ -18,9 +18,10 @@ reduce_to_complement(char * executeFile_path, char * input_file_path, char ** su
 
     size_t fileNameLengthWithoutExtension = strlen(input_file_path) - strlen(extension);
     strncpy(fileName, input_file_path, fileNameLengthWithoutExtension);
+    fileName[fileNameLengthWithoutExtension] = 0x0 ;
     
     for (int i = 0 ; i < n ; i ++) {
-        sub_complement[i] = (char *) malloc (sizeof(char) * PATH_MAX); //
+        sub_complement[i] = (char *) malloc (strlen(fileName) + strlen(extension) + 8); //
     
         sprintf(sub_complement[i], "%s-%d%s", fileName, i, extension); 
         mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;
@@ -44,12 +45,12 @@ reduce_to_complement(char * executeFile_path, char * input_file_path, char ** su
         close(fp);
 
         EXITCODE rt = runner(executeFile_path, sub_complement[i], "output/output.txt");
-        if(rt.valid == INVALID) {
+        if(rt.code_num==1) {
             
             free(fileName);
-            for (int j = i + 1 ; j < n ; j ++) {
-                free(sub_complement[j]);
-            }
+            //for (int j = i + 1 ; j < n ; j ++) {
+            //    free(sub_complement[j]);
+            //}
             return sub_complement[i];
         }
         remove(sub_complement[i]);

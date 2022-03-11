@@ -24,23 +24,23 @@ runner (char * exec, char * input, char * output) {
         rt.code_num = errno;
     }
     else if (child_pid == 0) {
-    
         int fp[2] ;
         fp[0] = open(input, O_RDONLY);
         fp[1] = open(output, O_WRONLY |O_APPEND);
 
         if (dup2(fp[0], STDIN_FILENO) == -1) {
-            perror("");
+            perror("1");
             rt.code_num = errno;
             exit(errno);
         }   
         if (dup2(fp[1], STDOUT_FILENO) == -1) {
-            perror("");
+            perror("2");
             rt.code_num = errno;
             exit(errno);
         }
         
-        if (execl(exec,0) == -1) {
+        if (execl(exec,"target", 0x0) == -1) {
+	    fprintf(stderr, "target exec: %s\n", exec) ;
             perror("");
             rt.code_num = errno;  
             exit(errno);  
@@ -60,11 +60,12 @@ runner (char * exec, char * input, char * output) {
 			w = waitpid(child_pid, &status, WNOHANG) ;
 			if (w != 0)
 				break ;
+			cur = time(0) ;
         }
         if (cur - start >= 1) {
-			kill(child_pid, SIGKILL);
+		kill(child_pid, SIGKILL);
         	w = waitpid(child_pid, &status, 0);
-		}
+	}
        
         if (w == -1) {
             perror("");
