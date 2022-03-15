@@ -7,56 +7,58 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <limits.h>
+#include <math.h>
 
 char * 
-reduce_to_complement(char * executeFile_path, char * input_file_path, char ** substrings, int n) {
-    
-    char ** sub_complement = (char **) malloc (sizeof(char *) * n); //
+reduce_to_complement(char * executeFile_path, char * input_file_path, int n) {
+	
+	struct stat st;
+	stat(input_file_path, &st);
+	int size = (int) ceil((double)st.st_size / n);
 
-    char * extension = strrchr(input_file_path, '.');
-    char * fileName = (char *) malloc (sizeof(char) * PATH_MAX); //
+	char * subcomplement = (char *) malloc (21);
+	char * substring = (char *) malloc (21);
+	FILE * read_file;
 
-    size_t fileNameLengthWithoutExtension = strlen(input_file_path) - strlen(extension);
-    strncpy(fileName, input_file_path, fileNameLengthWithoutExtension);
-    fileName[fileNameLengthWithoutExtension] = 0x0 ;
-    
-    for (int i = 0 ; i < n ; i ++) {
-        sub_complement[i] = (char *) malloc (strlen(fileName) + strlen(extension) + 8); //
-    
-        sprintf(sub_complement[i], "%s-%d%s", fileName, i, extension); 
-        mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH ;
-        
-        int fp = creat(sub_complement[i], mode);
+	for (int i = 0 ; i < n ; i ++) {
+		sprintf(subcomplement, "output/ddmin-%d", i);
 
-        FILE * write_file = fopen(sub_complement[i], "wa");
-        for(int j = 0 ; j < n ; j ++) {
-            if (i == j) {
-                continue;
-            }
+		FILE * write_file = fopen(subcomplement, "w+");
 
-            unsigned char buf;
-            FILE * read_file = fopen(substrings[j], "r");
-            while (fread(&buf, 1, 1, read_file) == 1) {
-                fwrite(&buf, 1, 1, write_file);
-            }
-            fclose(read_file);
-        }
-        fclose(write_file);
-        close(fp);
+		for (int j = 0 ; j < n ; j ++) {
+			if (i == j) 
+				continue;
+			
+			sprintf(substring, "output/ddmin%d", j);
+			read_file = fopen(substring, "r");
 
-        EXITCODE rt = runner(executeFile_path, sub_complement[i], "output/output.txt");
-        if(rt.code_num==1) {
-            
-            free(fileName);
-            //for (int j = i + 1 ; j < n ; j ++) {
-            //    free(sub_complement[j]);
-            //}
-            return sub_complement[i];
-        }
-        remove(sub_complement[i]);
-        free(sub_complement[i]);
-    }
-    free(fileName);
-    free(sub_complement);
-    return input_file_path;
+			unsigned char buf ;
+			while (fread(&buf, 1, 1, read_file) == 1) {
+				fwrite(&buf, 1, 1, write_file);
+			}
+			
+			fclose(read_file);	
+		}
+		fclose(write_file);
+
+		EXITCODE rt = runner(executeFile_path, subcomplement, "output/ddmin_output.txt");
+		if (rt.code_num == 1) {
+			free(substring);
+			FILE * answer_file = fopen("output/dd_answer", "w+");
+			FILE * failing_file = fopen(subcomplement, "r");
+			unsigned char buf;
+			while (fread(&buf, 1, 1, failing_file)) {
+				fwrite(&buf, 1, 1, answer_file);	
+			}
+			fclose(failing_file);
+			fclose(answer_file);
+			return subcomplement;
+	
+		}
+	}
+
+	free(substring);
+	free(subcomplement);
+	
+	return input_file_path;
 }

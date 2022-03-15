@@ -13,9 +13,9 @@ ddmin (char * execute_file_path, char * input_file_path) {
 
 	int n = 2;
 	int file_size;
-	char * current_file_path = (char *) malloc (sizeof(char) * PATH_MAX);
+	char * current_file_path = (char *) malloc (strlen(input_file_path));
 	strcpy(current_file_path, input_file_path);
-    char * result_file_path;
+     	char * result_file_path;
 	struct stat st;
 
 	do {
@@ -26,11 +26,9 @@ ddmin (char * execute_file_path, char * input_file_path) {
 		}
 		fprintf(stderr, "num : %d\n",n);
         
-		char ** substrings = split(current_file_path, n);
-
-		result_file_path = reduce_to_substring(execute_file_path, current_file_path, substrings, n);
+		result_file_path = reduce_to_substring(execute_file_path, current_file_path, n);
 		if (strcmp(current_file_path, result_file_path) != 0) {
-			fprintf(stderr, "result of complement : %s\n", result_file_path);
+			fprintf(stderr, "result of substring : %s\n", result_file_path);
 			strcpy(current_file_path, result_file_path);
 			n = 2;
 			free(result_file_path);
@@ -38,7 +36,7 @@ ddmin (char * execute_file_path, char * input_file_path) {
 		}
 		
 			
-		result_file_path = reduce_to_complement(execute_file_path, current_file_path, substrings, n);
+		result_file_path = reduce_to_complement(execute_file_path, current_file_path, n);
 		if (strcmp(current_file_path, result_file_path) != 0) {
 			fprintf(stderr, "result of complement : %s\n", result_file_path);
 			strcpy(current_file_path, result_file_path);
@@ -48,12 +46,6 @@ ddmin (char * execute_file_path, char * input_file_path) {
 		else {
 			n = n * 2;
 		}
-		
-		// for (int i = 0 ; i < n ; i ++) {
-		// 	free(substrings[i]);
-		// }
-		
-		free(substrings);
 	} 
     while (file_size > 1 && file_size != n * 2);
 	return current_file_path;

@@ -1,0 +1,844 @@
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer ository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'reporks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+n
+'name': 'jsmn'
+'keywords': 'json'
+'desn C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer iresource-limited or embedded projects'
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+itory": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+JSONneasilyresource-limited//github.com/zserge/jsms"
+'name': 'jsmn'
+'kcription': 'Minimalistic JSON parser/tokenizer in C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'des JSON parser/tokenizer in C. It : ': jsmn"
+can: be
+easily: integrated
+into: resource-limited
+or: embedded
+projects": 'repository'
+
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+: 'frameworks'
+'*': 'platforms'
+'*': 'examples'
+
+   - 'example/*.c'
+: 'exclude'
+'test': 
+: 
+: 
+: 
+: 
+: 
+can
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": 
+  'type': 'git'
+  'url': 'https://github.com/zserge/jsmn.git'
+
+'frameworks': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repository': '*'
+'platforms': '*'
+'examples': 
+   - 'example/*.c'
+
+'exclude': 'test'
+: 
+: 
+: 
+: 
+sticny'json'
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easily
+integrated: into
+resource-limited: or
+embedded: projects"
+'repositurl': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+Minimalisticn.canembedded'type'ps/zserge/jsmn.gieworks"mn"
+'name': 'jsmn'
+'keywords': 'json'
+'description': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'reposi'
+type": 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+smn"json"malisticnmn"nsilembeddedcts"itory"': ''url'//github.com/zserge/jsmn.giteworks"me"
+'name': 'jsmn'
+'keywords': 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repos
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+'keywords': 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+e"n"rds': 'jsonnimalisticnC.tn"canbeasilorembeddedprojects"epository"e"url"ttps//github.com/zserge/jsmn.git"rameworks"'name'
+'name': 'jsmn'
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repositor  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+'name': 'jsmn'
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+ame"n"rdsjsonMinimalisticnC.Itsmn"canbeeasilorembeddedprojects"epository"ype"iturl"ttps//github.com/zserge/jsmn.git"rameworks"'name'
+'name': n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repositor:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+'name': n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+nenrdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworks'ne'
+'ne': n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+'ne': n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+nenrdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworks'ne'
+'ne': n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+'ne': n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+nenrdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworksne"
+ne": n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+ne": n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+enrdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworkse"
+e": n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+e": n"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+nrdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworks': n'
+': n': rds"
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository:
+  {
+    '
+type": 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+: 
+
+': n': rds"
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository'
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+nrdssonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworksn"
+n": rds"
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository:
+  {
+    '
+type": 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+: 
+
+n": rds"
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository'
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+nrdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlttps//github.com/zserge/jsmn.gitframeworksn"
+n": rds"
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository:
+  {
+    '
+type": 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+: 
+
+n": rds"
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository'
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+nrdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworksn"
+n": rds"
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository:
+  {
+    '
+type": 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+: 
+
+n": rds"
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository'
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+rdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworks',
+ rds'
+',
+ rds': 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+',
+ rds': 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+rdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworksrds"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+rdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworksrds"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+rdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworksrds"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+rdsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworksrds"
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+rds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+dsjsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworksds"
+ds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+ds": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+sjsonMinimalisticnC.Itjsmncanbeeasilorembeddedrojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworkss"
+s": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+
+s": 'json'
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+jsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworks': '
+': ': json"
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+: 
+
+': ': json"
+'Minimalisticn C. It : ': jsmn"
+can: be
+easil: or
+embedded: projects"
+'repository': 'type'
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+: 
+: 
+jsonMinimalisticnC.Itjsmncanbeeasilorembeddedprojectsrepositorytypegiturlhttps//github.com/zserge/jsmn.gitframeworks'json'yy
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repositorithub.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+: 
+sticnnub.com/zserge/jsmn.git"
+'json': 'Minimalin be easil or embedded projects'
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+
+'json': 'Minimalisticn C. It : '
+jsmn": carojects"
+'repository:
+  {
+    ': type"
+'git': 'url'
+'https://github.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository:    '
+url": 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+: 
+
+'json': 'Minimalisticn C. It : '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository:
+  {
+    '
+type": 'git'
+ub.com/zserge/jsmn.git": 'frameworks'
+: 
+: 
+: 
+: 
+: 
+sticn'jsmn'nrrojects"pe"ub.com/zserge/jsmn.git"eworks"
+'json': sticn
+C.: It
+'jsmn': can
+be: easil
+or: embedded
+projects": 'repository:
+  {
+    '
+type": 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+: 
+
+'json': 'Minimali: '
+jsmn": can
+be: eas
+'type': 'git'
+'url': 'https://github.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+
+'json': 'Minimali: '
+jsmn": can
+be: easil
+or: embedded
+projects": 'repository:
+  {ub.com/zserge/jsmn.git'
+'frameworks': 
+: 
+: 
+: 
+: 
+inimalicanmbedded'frameworks'
+'json': 'Mcan be easil or embedded projects'
+'repository:
+  {ub.com/zserge/jsmn.git': 'frameworks'
+: 
+Minimali'jsmn'mbeddedrepositob.com/zserge/jsmn.git"rameworks"
+'jsMinimali: ': jsmn"
+mbedded: projects"
+'repository:
+  {ub.com/zserge/jsmn.git': 'frameworks'
+: 
+: 
+on"smn"mbeddedojects"repositoryb.com/zserge/jsmn.git"rameworks"ryry'jsmn'dedn"djectssitooedprojects"epositodedprojectsrepositodedprojectsrepositodedprojectsrepositodedprojectsrepositodedprojectsrepositoedprojectsrepositodprojectsrepositoprojectsrepositoprojectsrepositorojectsrepositoojectsrepositojectsrepositoectsrepositoctsrepositotsrepositosrepositoreposito',
+  'repositorepositorepositorepositorepositorepositorepositoepositoepositopositopositositoositositositoitoitototooo
