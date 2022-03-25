@@ -3,8 +3,8 @@
 #include <errno.h>
 #include <unistd.h>
 #include <limits.h>
-#include "../include/ddmin.h"
-#include "../include/runner.h"
+#include "../../include/ddmin.h"
+#include "../../include/runner.h"
 
 int
 main (int argc, char * argv[]) {

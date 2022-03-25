@@ -85,12 +85,12 @@ main (int argc, char * argv[]) {
 		for (int i = 0 ; i < max + 1 ; i ++) {
 			if(num_of_branch[i] == 1) {
 				printf("%s\n", path_of_branch[i]) ;
-				free(path_of_branch[i]);
+				free(path_of_branch[i]) ;
 			}	
 		}
 		
-		free(buf);
-		free(total_path);
+		free(buf) ;
+		free(total_path) ;
 
 	}
 	free(outputFile_path);

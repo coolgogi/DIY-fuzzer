@@ -4,6 +4,6 @@
 #include <string.h>
 #include <math.h>
 #include <fcntl.h>
-#include "../include/runner.h"
-#include "../include/ddmin.h"
+#include "../../include/runner.h"
+#include "../../include/ddmin.h"
 

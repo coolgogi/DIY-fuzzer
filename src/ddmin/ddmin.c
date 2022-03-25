@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../include/runner.h"
-#include "../include/ddmin.h"
+#include "../../include/runner.h"
+#include "../../include/ddmin.h"
 #include <errno.h>
 #include <unistd.h>
 #include <limits.h>

@@ -1,5 +1,5 @@
-#include "../include/runner.h"
-#include "../include/ddmin.h"
+#include "../../include/runner.h"
+#include "../../include/ddmin.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
