@@ -2,17 +2,23 @@
 #include <string.h>
 #include <errno.h>
 #include <limits.h>
+#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "../include/runner.h"
 
 int
-read_exec_dir (char * dir_path, char * output_path) {
+read_exec_dir (char * executeFile_path, char * dir_path, char * outputFile_path) {
 
     DIR * dir;
     struct dirent * dir_info;
 
     dir = opendir(dir_path);
+    
+    if (access(outputFile_path, W_OK) != 0) {
+    	FILE * fp = fopen(outputFile_path, "w+");
+	fclose(fp);
+    }
 
     if (dir == NULL) {
         perror("opendir returned NULL");
@@ -29,18 +35,22 @@ read_exec_dir (char * dir_path, char * output_path) {
         }
         else {
             
-            char * file_path = (char *) malloc (sizeof(char) * PATH_MAX);
-            strcpy(file_path, dir_path);
-            strcat(file_path, dir_info->d_name);
-            // printf("path: %s\n", file_path);
-            EXITCODE rt = runner(file_path, ".", output_path);
+            char * file_path = (char *) malloc (strlen(dir_path) + strlen(dir_info->d_name) + 1);
             
-            // printf("%s: validation : %d, num : %d", file_path, rt.code_num, rt.valid);
-
+	    strcpy(file_path, dir_path);
+            strcat(file_path, dir_info->d_name);
+	  	
             if (dir_info->d_type == DT_DIR) {
                 strcat(file_path, "/");
-                read_exec_dir(file_path, output_path);
+                read_exec_dir(executeFile_path, file_path, outputFile_path);
             }
+	    else { 
+		char * output_path = (char *) malloc (strlen(file_path) + 10);
+		strcpy(output_path, file_path);
+		strcat(output_path, ".bcov");
+            	EXITCODE rt = runner(executeFile_path, file_path, outputFile_path);
+		free(output_path);
+	    }
 
             free(file_path);
 
@@ -50,6 +60,4 @@ read_exec_dir (char * dir_path, char * output_path) {
     closedir(dir);
 
     return 0;
-
-
 }

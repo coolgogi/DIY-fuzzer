@@ -1,3 +1,3 @@
 echo "execute runner with failing case"
 
-./../bin/main ../bin/fail input/input_failing.txt output/output_failing.txt
+../bin/testcase input/fail input/input_failing.txt output/output_failing.txt

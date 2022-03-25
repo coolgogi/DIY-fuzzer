@@ -1,0 +1,15 @@
+{
+  "covered-points" : ["4c2cee", "4c2ed5"],
+  "binary-hash" : "66EABAB421E7EF317B5A4B889991742E211534C4",
+  "point-symbol-info" : {
+    "/home/suhyun/DIY-fuzzer/src/branch.c" : {
+      "main" : {
+        "4c2cee" : "5:0",
+        "4c2df4" : "18:4",
+        "4c2e22" : "21:4",
+        "4c2ea7" : "26:4",
+        "4c2ed5" : "29:4"
+      }
+    }
+  }
+}
