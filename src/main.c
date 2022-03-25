@@ -6,8 +6,6 @@
 #include <fcntl.h>
 #include <errno.h>
 #include "../include/runner.h"
-#include <dirent.h>
-
 
 int
 main (int argc, char * argv[]) {
@@ -91,7 +89,7 @@ main (int argc, char * argv[]) {
 			
 		
 		}
-		printf("coverage : %.2lf%\n", (double) covered / (double) * total * 100);
+		printf("coverage : %.2lf\n", (double) covered / (double) * total);
 		for (int i = 0 ; i < * total+ 1 ; i ++) {
 			if (num_of_branch[i] != 0) {
 				fprintf(stderr, "%s\n", path_of_branch[i]) ;
