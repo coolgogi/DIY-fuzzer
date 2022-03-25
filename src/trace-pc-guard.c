@@ -3,17 +3,22 @@
 #include <unistd.h>
 #include <sanitizer/coverage_interface.h>
 #include "../include/runner.h"
+
+uint64_t num_of_branch ;
+
 void 
-__sanitizer_cov_trace_pc_guard_init (uint32_t *start, uint32_t *stop) 
+__sanitizer_cov_trace_pc_guard_init (uint32_t * start, uint32_t * end) 
 {
-	static uint64_t N ; 
-	if (start == stop || *start) 
+	num_of_branch = 0 ; 
+	if (start == end || * start) { 
 		return ;  
+	}
+	
+	for (uint32_t * i = start ; i < end ; i++) {
+		num_of_branch++ ;
+		* i = num_of_branch ;
+	}
 
-//	printf("INIT: %p %p\n", start, stop) ;
-
-	for (uint32_t *x = start; x < stop; x++)
-		*x = ++N ;
 }
 
 void 
@@ -26,8 +31,10 @@ __sanitizer_cov_trace_pc_guard (uint32_t *guard)
 	char PcDescr[512] ;
 	__sanitizer_symbolize_pc(PC, "%L", PcDescr, sizeof(PcDescr)) ;
 	PcDescr[511] = '\n' ;
-	
+	uint64_t * tp = & num_of_branch ;
+
 	write(BCOV_FILENO, PcDescr, 512) ;
 	write(TOTAL_FILENO, guard, sizeof(uint32_t)) ;
-	write(TOTAL_FILENO, PcDescr, sizeof(PcDescr));
+	write(TOTAL_FILENO, tp, sizeof(uint32_t)) ;
+	write(TOTAL_FILENO, PcDescr, 512) ;
 }

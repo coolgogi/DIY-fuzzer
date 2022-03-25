@@ -15,11 +15,6 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputFile_path)
 
     dir = opendir(dir_path);
     
-    if (access(outputFile_path, W_OK) != 0) {
-    	FILE * fp = fopen(outputFile_path, "w+");
-	fclose(fp);
-    }
-
     if (dir == NULL) {
         perror("opendir returned NULL");
         return errno;

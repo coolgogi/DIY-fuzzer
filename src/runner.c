@@ -113,6 +113,7 @@ runner (char * exec, char * input, char * output) {
         	else {
             		rt.valid = INVALID;
         	}
+		
     	}
     	return rt;
 }
