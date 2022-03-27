@@ -4,7 +4,7 @@
 #include <sanitizer/coverage_interface.h>
 #include "../include/runner.h"
 
-uint64_t num_of_branch ;
+uint32_t num_of_branch ;
 
 void 
 __sanitizer_cov_trace_pc_guard_init (uint32_t * start, uint32_t * end) 
@@ -31,9 +31,10 @@ __sanitizer_cov_trace_pc_guard (uint32_t *guard)
 	char PcDescr[512] ;
 	__sanitizer_symbolize_pc(PC, "%L", PcDescr, sizeof(PcDescr)) ;
 	PcDescr[511] = '\n' ;
-	uint64_t * tp = & num_of_branch ;
+	uint32_t * tp = & num_of_branch ;
 
-	write(BCOV_FILENO, PcDescr, 512) ;
+	write(STDOUT_FILENO, PcDescr, 512) ;	
+
 	write(TOTAL_FILENO, guard, sizeof(uint32_t)) ;
 	write(TOTAL_FILENO, tp, sizeof(uint32_t)) ;
 	write(TOTAL_FILENO, PcDescr, 512) ;

@@ -25,20 +25,15 @@ runner (char * exec, char * input, char * output) {
     	}
     	else if (child_pid == 0) {
 		
-		char * bcov_path = (char *) malloc (strlen(input) + 5);
-		strcpy(bcov_path, input);
-		strcat(bcov_path, ".bcov");
-		
 		char * total_path = (char *) malloc (strlen(exec) + 5);
 		strcpy(total_path, exec);
 		strcat(total_path, ".bcov");
 
-		int fp[4] ;
+		int fp[3] ;
 		mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH ;
         	fp[0] = open(input, O_RDONLY);
 		fp[1] = open(output, O_CREAT | O_APPEND | O_WRONLY, mode);
-	       	fp[2] = open(bcov_path, O_CREAT | O_WRONLY, mode);	
-		fp[3] = open(total_path, O_CREAT | O_APPEND | O_WRONLY, mode);
+		fp[2] = open(total_path, O_CREAT | O_APPEND | O_WRONLY, mode);
 
         	if (dup2(fp[0], STDIN_FILENO) == -1) {
 			fprintf(stderr, "1st dup2 error in runner\n");
@@ -50,13 +45,8 @@ runner (char * exec, char * input, char * output) {
  	           	rt.code_num = errno;
 	           	exit(errno);
      		}
-		if (dup2(fp[2], BCOV_FILENO) == -1) {
+		if (dup2(fp[2], TOTAL_FILENO) == -1) {
 			fprintf(stderr, "3rd dup2 error in runner\n");
- 	           	rt.code_num = errno;
-	           	exit(errno);
-		}
-		if (dup2(fp[3], TOTAL_FILENO) == -1) {
-			fprintf(stderr, "4th dup2 error in runner\n");
 			rt.code_num = errno;
 			exit(errno);
 		}
@@ -71,10 +61,8 @@ runner (char * exec, char * input, char * output) {
 			
         	close(fp[0]);
         	close(fp[1]);
-   		close(fp[2]);
-		close(fp[3]);
+		close(fp[2]);
 		free(total_path);
-		free(bcov_path);
 	}
     	else {
         	pid_t w;
