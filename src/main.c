@@ -139,6 +139,79 @@ main (int argc, char * argv[]) {
 		}
 		fprintf(stderr, "coverage : %.2lf(%d / %d)\n", (double) covered / (double) num_of_branch, covered, num_of_branch);	
 		fprintf(stderr, "passing case : %d, failing case : %d\n", rt[0], rt[1]) ;
+		
+		fprintf(stderr, "result of Tarantula\n") ;
+		fprintf(stderr, "i  : susp conf rank\n") ;
+		double sus[num_of_branch + 1] ;
+		double con[num_of_branch + 1] ;
+		int rank[num_of_branch + 1] ;
+		for (int i = 1 ; i < num_of_branch + 1; i ++ ) {
+
+			double passed = (double) p_branch[i] / (double) rt[0] ;
+			double failed = (double) f_branch[i] / (double) rt[1] ;
+			
+			if ((passed == 0 && failed == 0)) {
+				sus[i] = 0 ;
+			}
+			else {
+				sus[i] = failed / (failed + passed) ;
+			}
+
+			if (passed > failed) {
+				con[i] = passed ;
+			}	
+			else {
+				con[i] = failed ;
+			}
+		}
+		
+		int rank_tp[num_of_branch + 1] ;
+		for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
+			rank_tp[i] = i ;
+
+		}
+		for (int i = 1 ; i < num_of_branch ; i ++) {
+			
+			int pre_index = rank_tp[i] ;	
+			for (int j = i + 1 ; j < num_of_branch + 1 ; j ++) {
+	
+				int post_index = rank_tp[j] ;
+				double pre = sus[pre_index] ;
+				double post = sus[post_index] ;
+
+				if (pre < post) {
+					int tp = rank_tp[i] ;
+					rank_tp[i] = rank_tp[j] ;
+					rank_tp[j] = tp ;
+
+					pre_index = rank_tp[i] ;
+				}
+				else if (pre == post) {
+					pre = con[pre_index] ;
+					post = con[post_index] ;
+
+					if (pre < post) {
+						int tp = rank_tp[i] ;
+						rank_tp[i] = rank_tp[j] ;
+						rank_tp[j] = tp ;
+
+						pre_index = rank_tp[i] ;
+					}
+					else if (pre == post) {
+					}
+				}
+			}
+		}
+
+		for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
+			int index = rank_tp[i] ;
+			rank[index] = i ; 
+		}
+
+		for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) {
+			fprintf(stderr, "%.3d: %lf %lf %.3d\n", i, sus[i], con[i], rank[i]) ;
+		}
+		
 	}
 	free(outputDir_path);
 	free(inputDir_path);
