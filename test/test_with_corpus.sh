@@ -6,5 +6,4 @@ input_dir="../go-json-fuzz/fuzz/corpus/"
 output_dir="output/corpus/"
 
 rm $output_dir*.bcov
-rm $target.bcov
-$main $input_dir $output_dir $target -bcov
+ASAN_OPTIONS=detect_leaks=0:halt_on_error=1 $main $input_dir $output_dir $target -bcov

@@ -25,22 +25,22 @@ runner (char * exec, char * input, char * output) {
     	}
     	else if (child_pid == 0) {
 		
-		char * total_path = (char *) malloc (strlen(exec) + 5);
+		char * total_path = (char *) malloc (strlen(exec) + 6);
 		strcpy(total_path, exec);
 		strcat(total_path, ".bcov");
-
+		
 		int fp[3] ;
 		mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH ;
         	fp[0] = open(input, O_RDONLY);
 		fp[1] = open(output, O_CREAT | O_APPEND | O_WRONLY, mode);
 		fp[2] = open(total_path, O_CREAT | O_APPEND | O_WRONLY, mode);
-
-        	if (dup2(fp[0], STDIN_FILENO) == -1) {
+        	
+		if (dup2(fp[0], STDIN_FILENO) == -1) {
 			fprintf(stderr, "1st dup2 error in runner\n");
      		    	rt.code_num = errno;	
 		    	exit(errno);
         	}   
-	        if (dup2(fp[1], STDOUT_FILENO) == -1) {
+	        if (dup2(fp[1], BCOV_FILENO) == -1) {
 			fprintf(stderr, "2nd dup2 error in runner\n");
  	           	rt.code_num = errno;
 	           	exit(errno);
@@ -71,13 +71,13 @@ runner (char * exec, char * input, char * output) {
         	cur = time(0);
        		start = time(0);
 
-       		while (cur - start < 1) {
+       		while (cur - start < 10) {
 			w = waitpid(child_pid, &status, WNOHANG) ;
 			if (w != 0)
 				break ;
 			cur = time(0) ;
 	        }
-	        if (cur - start >= 1) {
+	        if (cur - start >= 10) {
 			kill(child_pid, SIGKILL);
         		w = waitpid(child_pid, &status, 0);
 		}

@@ -26,4 +26,4 @@ typedef struct exitcode {
 } EXITCODE;
 
 EXITCODE runner (char *, char *, char *);
-int * read_exec_dir (char *, char *, char *);
+int read_exec_dir (char *, char *, char *);

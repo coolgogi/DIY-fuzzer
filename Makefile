@@ -8,11 +8,11 @@ SRC = $(wildcard src/*.c)
 INCL = $(wildcard include/*.o)
 
 all:  runner trace
-	$(CC) -c src/read_exec_dir.c -g -O3 -o bin/read_exec_dir.o
-	$(CC) src/main.c bin/runner.o bin/read_exec_dir.o -g -O3 -o bin/main
+	$(CC) -c src/read_exec_dir.c -g -O0 -o bin/read_exec_dir.o
+	$(CC) src/main.c bin/runner.o bin/read_exec_dir.o -g -O0 -o bin/main
 
 runner:
-	$(CC) -c src/runner.c -g -O3  -o bin/runner.o
+	$(CC) -c src/runner.c -g -O0  -o bin/runner.o
 
 trace:
 	$(CC) -fsanitize=address -c src/trace-pc-guard.c -o bin/trace-pc-guard.o
