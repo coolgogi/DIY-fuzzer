@@ -11,9 +11,6 @@
 int
 read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path) {
 	
-    int * pf_rt = (int *) malloc (sizeof(int) * 2) ;
-    pf_rt[0] = 0 ;
-    pf_rt[1] = 0 ;
     DIR * dir;
     struct dirent * dir_info;
 
@@ -21,9 +18,7 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path) 
     
     if (dir == NULL) {
         perror("opendir returned NULL");
-        pf_rt[0] = -1 ;
-	pf_rt[1] = errno ;
-	return EXIT_FAILURE;
+	return errno;
     }
 
     while ((dir_info = readdir(dir))) {
@@ -75,8 +70,8 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path) 
     }
 
     int num_of_branch = 0 ;
-    uint32_t * buf = (uint32_t *) malloc (sizeof(uint32_t)) ;
     
+    uint32_t * buf = (uint32_t *) malloc (sizeof(uint32_t)) ;
     char * total_path = (char *) malloc (strlen(executeFile_path) + 6) ;
     strcpy(total_path, executeFile_path) ;
     strcat(total_path, ".bcov") ;

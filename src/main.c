@@ -1,3 +1,4 @@
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -9,11 +10,17 @@
 #include <sys/stat.h>
 #include "../include/runner.h"
 
+double * calculate_sus (char, int *, int *, int *, int) ;
+double * calculate_con (char, int *, int *, int *, int) ;
+int * sorting_statement (int, double *, double *);
+
 int
 main (int argc, char * argv[]) {
 	
 	int bcov = 0 ;
 	int num_of_branch;
+	char mode = 'T' ;
+	
 	if (argc != 4 && argc != 5) {
 		fprintf(stderr, "main.c line 17 : invalid arguments") ;
         	exit(EXIT_FAILURE) ;
@@ -58,6 +65,13 @@ main (int argc, char * argv[]) {
 	memset(p_branch, 0, sizeof(int) * (num_of_branch + 1)) ;
 	memset(f_branch, 0, sizeof(int) * (num_of_branch + 1)) ;
 
+	char * branch_path[num_of_branch + 1] ;
+	
+	for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) {
+		branch_path[i] = (char *) malloc (1024) ;
+		memset(branch_path[i], 0, 1024) ;	
+	}
+      
 	if (bcov == 1) {
 		
 		DIR * dir ;
@@ -88,21 +102,31 @@ main (int argc, char * argv[]) {
 			stat(bcov_file, &st) ;
 
 			unsigned int file_size = st.st_size ;
-			int n = file_size / sizeof(uint32_t) ;
+			int n = file_size / (sizeof(uint32_t) + 1024)  ;
 
 			FILE * bcov_ptr = fopen(bcov_file, "r") ;
 			
 			uint32_t * buf = (uint32_t *) malloc (sizeof(uint32_t)) ;
+			uint32_t * size = (uint32_t *) malloc (sizeof(uint32_t)) ;
+			char * PcDescr = (char *) malloc (1024) ;
 			char * ch = (char *) malloc (1) ;
-			
-			for (int i = 0 ; i < n ; i ++ ) {
+
+			while (file_size > 1) {
 				fread(buf, 1, sizeof(uint32_t), bcov_ptr) ;
-				
+				file_size = file_size - sizeof(uint32_t) ;
+				fread(size, 1, sizeof(uint32_t), bcov_ptr) ;
+				file_size = file_size - sizeof(uint32_t) ;
+				fread(PcDescr, 1, *size, bcov_ptr) ;
+				file_size = file_size - *size ;
+
 				if (tp_branch[*buf] != 1) {
 					tp_branch[*buf] = 1 ;
-				}		
-				
+					strcpy(branch_path[*buf], PcDescr) ;
+				}
+
 			}
+
+			free(PcDescr) ;
 			fread(ch, 1, 1, bcov_ptr) ;
 			if (*ch == 'p') {
 				rt[0] ++ ;
@@ -110,6 +134,7 @@ main (int argc, char * argv[]) {
 			else if (*ch == 'f') {
 				rt[1] ++ ;
 			}
+
 			for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
 				if (tp_branch[i] == 1) {
 
@@ -124,60 +149,190 @@ main (int argc, char * argv[]) {
 			
 			free(ch) ;
 			free(buf) ;
+			free(size) ;
 			fclose(bcov_ptr) ;
 			free(bcov_file) ;
 			
 		}
-
+		
+		fprintf(stderr, "\n") ;
+		
 		for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
 			
 			if ((p_branch[i] != 0)||(f_branch[i] != 0))
 				covered++ ;
 
-			fprintf(stderr, "%d : %d %d\n", i, p_branch[i], f_branch[i]) ;
-
 		}
+		
 		fprintf(stderr, "coverage : %.2lf(%d / %d)\n", (double) covered / (double) num_of_branch, covered, num_of_branch);	
 		fprintf(stderr, "passing case : %d, failing case : %d\n", rt[0], rt[1]) ;
 		
-		fprintf(stderr, "result of Tarantula\n") ;
-		fprintf(stderr, "i  : susp conf rank\n") ;
-		double sus[num_of_branch + 1] ;
-		double con[num_of_branch + 1] ;
-		int rank[num_of_branch + 1] ;
-		for (int i = 1 ; i < num_of_branch + 1; i ++ ) {
+		double * sus ;
+		double * con ;
+		int * T_rank, * S_rank, * J_rank, * O_rank ;
 
-			double passed = (double) p_branch[i] / (double) rt[0] ;
-			double failed = (double) f_branch[i] / (double) rt[1] ;
+		sus = calculate_sus('T', p_branch, f_branch, rt, num_of_branch) ;
+		con = calculate_con('T', p_branch, f_branch, rt, num_of_branch) ;	
+		T_rank = sorting_statement(num_of_branch, sus, con) ;	
+		
+		sus = calculate_sus('S', p_branch, f_branch, rt, num_of_branch) ;
+		con = calculate_con('S', p_branch, f_branch, rt, num_of_branch) ;
+		S_rank = sorting_statement(num_of_branch, sus, con) ;
+
+		sus = calculate_sus('J', p_branch, f_branch, rt, num_of_branch) ;
+		con = calculate_con('J', p_branch, f_branch, rt, num_of_branch) ;
+		J_rank = sorting_statement(num_of_branch, sus, con) ;
+
+		sus = calculate_sus('O', p_branch, f_branch, rt, num_of_branch) ;
+		con = calculate_con('O', p_branch, f_branch, rt, num_of_branch) ;
+		O_rank = sorting_statement(num_of_branch, sus, con) ;
+		
+		fprintf(stderr, "result\n") ;
+		fprintf(stderr, "rank : Tar SBI Jcd Och\n") ;
+		for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) { 
+			fprintf(stderr, "%.3d  : %.3d %.3d %.3d %.3d\n", i, T_rank[i], S_rank[i], J_rank[i], O_rank[i]) ;
+		}
+		for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) {
+			fprintf(stderr, "%d %s\n", i, branch_path[i]) ;
+		}
 			
-			if ((passed == 0 && failed == 0)) {
+		free(sus) ;
+		free(con) ;
+		free(T_rank) ;	
+		free(S_rank) ;	
+		free(J_rank) ;	
+		free(O_rank) ;	
+	}
+
+	for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
+		free(branch_path[i]) ;
+	}
+
+	free(outputDir_path);
+	free(inputDir_path);
+	free(executeFile_path);
+	return 0 ;
+}
+
+
+
+double *
+calculate_sus (char type, int * p_branch, int * f_branch, int * cases, int n) {
+
+	double passed ;
+	double failed ;
+	double totalFailed ;
+
+	double * sus = (double *) malloc (sizeof(double) * (n + 1)) ;
+
+	for (int i = 1 ; i < n + 1 ; i ++) {
+
+		if (type == 'T') {
+			passed = (double) p_branch[i] / (double) cases[0] ;
+			failed = (double) f_branch[i] / (double) cases[1] ;
+
+			if (passed == 0 && failed == 0) {
 				sus[i] = 0 ;
 			}
 			else {
 				sus[i] = failed / (failed + passed) ;
 			}
+		}
+		else if (type == 'S') {
+			passed = (double) p_branch[i] ;
+			failed = (double) f_branch[i] ;
 
+			if (passed == 0 && failed == 0) {
+				sus[i] = 0 ;
+			}
+			else {
+				sus[i] = failed / (failed + passed) ;
+			}
+		}
+		else if (type == 'J') {
+			passed = (double) p_branch[i] ;
+			failed = (double) f_branch[i] ;
+			totalFailed = (double) cases[1] ;
+
+			if (totalFailed == 0 && passed == 0) {
+				sus[i] = 0 ;
+			}
+			else {
+				sus[i] = failed / (totalFailed + passed) ;
+			}
+		}
+		else if (type =='O') {
+			passed = (double) p_branch[i] ;
+			failed = (double) f_branch[i] ;
+			totalFailed = (double) cases[1] ;
+			
+			double tp = totalFailed * (failed + passed) ;
+			if (tp == 0) {
+				sus[i] = 0 ;
+			}
+			else {
+				sus[i] = failed / sqrt(tp) ;
+			}
+		}
+	}
+	return sus ;
+}
+	
+double *
+calculate_con (char mode, int * p_branch, int * f_branch, int * cases, int n) {
+
+	double passed ;
+	double failed ;
+	double * con = (double *) malloc (sizeof(double) * (n + 1)) ;
+	
+	for (int i = 1 ; i < n + 1 ; i ++) {
+		if (mode == 'T') {
+
+			passed = (double) p_branch[i] / (double) cases[0] ;
+			failed = (double) f_branch[i] / (double) cases[1] ;
+	
 			if (passed > failed) {
 				con[i] = passed ;
-			}	
+			}
 			else {
 				con[i] = failed ;
 			}
 		}
-		
-		int rank_tp[num_of_branch + 1] ;
-		for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
-			rank_tp[i] = i ;
-
+		else {
+			con[i] = 0 ;
 		}
-		for (int i = 1 ; i < num_of_branch ; i ++) {
-			
-			int pre_index = rank_tp[i] ;	
-			for (int j = i + 1 ; j < num_of_branch + 1 ; j ++) {
+	}
+	return con ;
+}
+
+int *
+sorting_statement(int n, double * sus, double * con) {
 	
-				int post_index = rank_tp[j] ;
-				double pre = sus[pre_index] ;
-				double post = sus[post_index] ;
+	int * rank = (int *) malloc (sizeof(int) * (n + 1)) ;
+	int * rank_tp = (int *) malloc (sizeof(int) * (n + 1)) ;
+
+	for (int i = 1 ; i < n + 1 ; i ++) {
+		rank_tp[i] = i ;
+	}
+
+	for (int i = 1 ; i < n ; i ++) {
+			
+		int pre_index = rank_tp[i] ;	
+		for (int j = i + 1 ; j < n + 1 ; j ++) {
+
+			int post_index = rank_tp[j] ;
+			double pre = sus[pre_index] ;
+			double post = sus[post_index] ;
+
+			if (pre < post) {
+				int tp = rank_tp[i] ;
+				rank_tp[i] = rank_tp[j] ;
+				rank_tp[j] = tp ;
+				pre_index = rank_tp[i] ;
+			}
+			else if (pre == post) {
+				pre = con[pre_index] ;
+				post = con[post_index] ;
 
 				if (pre < post) {
 					int tp = rank_tp[i] ;
@@ -187,34 +342,16 @@ main (int argc, char * argv[]) {
 					pre_index = rank_tp[i] ;
 				}
 				else if (pre == post) {
-					pre = con[pre_index] ;
-					post = con[post_index] ;
-
-					if (pre < post) {
-						int tp = rank_tp[i] ;
-						rank_tp[i] = rank_tp[j] ;
-						rank_tp[j] = tp ;
-
-						pre_index = rank_tp[i] ;
-					}
-					else if (pre == post) {
-					}
 				}
-			}
+			}	
 		}
-
-		for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
-			int index = rank_tp[i] ;
-			rank[index] = i ; 
-		}
-
-		for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) {
-			fprintf(stderr, "%.3d: %lf %lf %.3d\n", i, sus[i], con[i], rank[i]) ;
-		}
-		
 	}
-	free(outputDir_path);
-	free(inputDir_path);
-	free(executeFile_path);
-	return 0 ;
+	/*
+	for (int i = 1 ; i < n + 1 ; i ++) {
+		int index = rank_tp[i] ;
+		rank[index] = i ; 
+	}
+	*/
+
+	return rank_tp ;
 }
