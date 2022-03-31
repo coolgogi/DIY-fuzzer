@@ -20,7 +20,8 @@ main (int argc, char * argv[]) {
 	int bcov = 0 ;
 	int num_of_branch;
 	char mode = 'T' ;
-	
+	int timeout = 0 ;
+
 	if (argc != 4 && argc != 5) {
 		fprintf(stderr, "main.c line 17 : invalid arguments") ;
         	exit(EXIT_FAILURE) ;
@@ -59,6 +60,8 @@ main (int argc, char * argv[]) {
 	}
 
    	num_of_branch = read_exec_dir(executeFile_path, inputDir_path, outputDir_path) ;
+	free(executeFile_path);
+	free(inputDir_path);
 	
 	int p_branch[num_of_branch + 1] ;
 	int f_branch[num_of_branch + 1] ;
@@ -90,7 +93,7 @@ main (int argc, char * argv[]) {
 
 			if (dir_info->d_type == DT_DIR)
 				continue ;
-			
+				
 			int tp_branch[num_of_branch + 1] ;
 			memset(tp_branch, 0, sizeof(int) * (num_of_branch + 1)) ;
 			
@@ -105,11 +108,17 @@ main (int argc, char * argv[]) {
 			int n = file_size / (sizeof(uint32_t) + 1024)  ;
 
 			FILE * bcov_ptr = fopen(bcov_file, "r") ;
-			
+
 			uint32_t * buf = (uint32_t *) malloc (sizeof(uint32_t)) ;
 			uint32_t * size = (uint32_t *) malloc (sizeof(uint32_t)) ;
 			char * PcDescr = (char *) malloc (1024) ;
-			char * ch = (char *) malloc (1) ;
+			
+			char * bcovnum = (char *) malloc (strlen(outputDir_path) + 4 + strlen(dir_info->d_name)) ;
+			strcpy(bcovnum, outputDir_path) ;
+			strcat(bcovnum, "num/") ;
+			strcat(bcovnum, dir_info->d_name) ;
+			strcat(bcovnum, "num") ;
+			FILE * num_ptr = fopen(bcovnum, "a+") ;
 
 			while (file_size > 1) {
 				fread(buf, 1, sizeof(uint32_t), bcov_ptr) ;
@@ -118,7 +127,14 @@ main (int argc, char * argv[]) {
 				file_size = file_size - sizeof(uint32_t) ;
 				fread(PcDescr, 1, *size, bcov_ptr) ;
 				file_size = file_size - *size ;
-
+				
+		//		fprintf(stderr, "%d ", *buf) ;
+				
+				char cbuf[5] ;
+				sprintf(cbuf, "%d ", *buf) ;
+				fwrite(cbuf, 1, sizeof(cbuf), num_ptr) ;
+				
+				
 				if (tp_branch[*buf] != 1) {
 					tp_branch[*buf] = 1 ;
 					strcpy(branch_path[*buf], PcDescr) ;
@@ -126,46 +142,51 @@ main (int argc, char * argv[]) {
 
 			}
 
+			fclose(num_ptr) ;
+			free(bcovnum) ;
 			free(PcDescr) ;
+			free(size) ;
+			free(buf) ;
+
+			char * ch = (char *) malloc (1) ;
 			fread(ch, 1, 1, bcov_ptr) ;
 			if (*ch == 'p') {
 				rt[0] ++ ;
 			}
+			else if (*ch == 't') {
+				rt[1] ++ ;
+				timeout ++ ;
+			}
 			else if (*ch == 'f') {
 				rt[1] ++ ;
 			}
-
+			
 			for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
 				if (tp_branch[i] == 1) {
 
 					if (*ch == 'p') {
 						p_branch[i] ++ ;
 					}
-					else if (*ch == 'f') {
+					else  {
 						f_branch[i] ++ ;
 					}
 				}
 			}
 			
-			free(ch) ;
-			free(buf) ;
-			free(size) ;
-			fclose(bcov_ptr) ;
 			free(bcov_file) ;
+			free(ch) ;
+			fclose(bcov_ptr) ;
 			
 		}
 		
 		fprintf(stderr, "\n") ;
-		
 		for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
-			
 			if ((p_branch[i] != 0)||(f_branch[i] != 0))
 				covered++ ;
-
 		}
 		
 		fprintf(stderr, "coverage : %.2lf(%d / %d)\n", (double) covered / (double) num_of_branch, covered, num_of_branch);	
-		fprintf(stderr, "passing case : %d, failing case : %d\n", rt[0], rt[1]) ;
+		fprintf(stderr, "passing case : %d, failing case : %d, timeout case : %d\n", rt[0], rt[1], timeout) ;
 		
 		double * sus ;
 		double * con ;
@@ -193,7 +214,7 @@ main (int argc, char * argv[]) {
 			fprintf(stderr, "%.3d  : %.3d %.3d %.3d %.3d\n", i, T_rank[i], S_rank[i], J_rank[i], O_rank[i]) ;
 		}
 		for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) {
-			fprintf(stderr, "%d %s\n", i, branch_path[i]) ;
+			fprintf(stderr, "%d : %d %d\n", i, p_branch[i], f_branch[i]) ;
 		}
 			
 		free(sus) ;
@@ -204,13 +225,11 @@ main (int argc, char * argv[]) {
 		free(O_rank) ;	
 	}
 
+	free(outputDir_path);
 	for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
 		free(branch_path[i]) ;
 	}
 
-	free(outputDir_path);
-	free(inputDir_path);
-	free(executeFile_path);
 	return 0 ;
 }
 

@@ -80,6 +80,8 @@ runner (char * exec, char * input, char * output) {
 	        if (cur - start >= 10) {
 			kill(child_pid, SIGKILL);
         		w = waitpid(child_pid, &status, 0);
+			rt.code_num = 9 ;
+			return rt ;
 		}
        
         	if (w == -1) {

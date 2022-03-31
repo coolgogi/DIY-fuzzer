@@ -52,6 +52,9 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path) 
 		if (rt.code_num == 0) {
 			*ch = 'p' ;
 		}
+		else if (rt.code_num == 9) {
+			*ch = 't' ;
+		}
 		else {
 			*ch = 'f' ;
 		}
