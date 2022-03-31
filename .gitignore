@@ -4,5 +4,5 @@ jsmn
 go-json-fuzz
 JSON.sh
 cJSON
-test/output/corpus/
+
 test/output/cJSON/
