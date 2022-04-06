@@ -18,7 +18,7 @@ trace:
 	$(CC) -fsanitize=address -c src/trace-pc-guard.c -o bin/trace-pc-guard.o
 
 reduction:
-	$(CC) -fsanitize=address -c src/reduction.c -o bin/reduction.o
+	$(CC) -fsanitize=address src/test-case_reduction.c $(CFLAGS) -o bin/test-case_reduction
 
 ddmin: runner
 	$(CC) -c src/ddmin/ddmin.c $(CFLAGS)  -o bin/ddmin.o

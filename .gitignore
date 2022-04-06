@@ -4,5 +4,7 @@ jsmn
 go-json-fuzz
 JSON.sh
 cJSON
-
 test/output/cJSON/
+test/output/corpus/
+libxml2
+igraph

@@ -43,40 +43,45 @@ main (int argc, char * argv[]) {
 	strcpy(inputDir_path, argv[1]);
 	strcpy(outputDir_path, argv[2]);
 	strcpy(executeFile_path, argv[3]);
+	
+	int * rt ;
 
 	if (access(executeFile_path, X_OK) != 0) {
-		fprintf(stderr, "main.c line 38 : target program is not executable\n");
+		fprintf(stderr, "main.c : target program is not executable\n");
 		exit(EXIT_FAILURE);
 	}
 
 	if (access(inputDir_path, F_OK) != 0) {
-		fprintf(stderr, "main.c line 43 : input directory path is not valid\n");
+		fprintf(stderr, "main.c : input directory path is not valid\n");
 		exit(EXIT_FAILURE);
 	}
 
 	if (access(outputDir_path, F_OK) != 0) {
-		fprintf(stderr, "main.c line 48 : output directory path is not valid\n");
+		fprintf(stderr, "main.c : output directory path is not valid\n");
 		exit(EXIT_FAILURE);
 	}
 
-   	num_of_branch = read_exec_dir(executeFile_path, inputDir_path, outputDir_path) ;
+   	rt = read_exec_dir(executeFile_path, inputDir_path, outputDir_path, bcov) ;
 	free(executeFile_path);
 	free(inputDir_path);
-	
-	int p_branch[num_of_branch + 1] ;
-	int f_branch[num_of_branch + 1] ;
-	memset(p_branch, 0, sizeof(int) * (num_of_branch + 1)) ;
-	memset(f_branch, 0, sizeof(int) * (num_of_branch + 1)) ;
+	fprintf(stderr, "passed : %d\nfailed : %d\n", rt[0], rt[1]) ;	
 
-	char * branch_path[num_of_branch + 1] ;
-	
-	for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) {
-		branch_path[i] = (char *) malloc (1024) ;
-		memset(branch_path[i], 0, 1024) ;	
-	}
       
 	if (bcov == 1) {
-		
+		num_of_branch = rt[2] ;
+
+		int p_branch[num_of_branch + 1] ;
+		int f_branch[num_of_branch + 1] ;
+		memset(p_branch, 0, sizeof(int) * (num_of_branch + 1)) ;
+		memset(f_branch, 0, sizeof(int) * (num_of_branch + 1)) ;
+	
+		char * branch_path[num_of_branch + 1] ;
+	
+		for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) {
+			branch_path[i] = (char *) malloc (1024) ;
+			memset(branch_path[i], 0, 1024) ;	
+		}
+
 		DIR * dir ;
 		struct dirent * dir_info ;
 		dir = opendir(outputDir_path) ;
@@ -113,13 +118,6 @@ main (int argc, char * argv[]) {
 			uint32_t * size = (uint32_t *) malloc (sizeof(uint32_t)) ;
 			char * PcDescr = (char *) malloc (1024) ;
 			
-			char * bcovnum = (char *) malloc (strlen(outputDir_path) + 4 + strlen(dir_info->d_name)) ;
-			strcpy(bcovnum, outputDir_path) ;
-			strcat(bcovnum, "num/") ;
-			strcat(bcovnum, dir_info->d_name) ;
-			strcat(bcovnum, "num") ;
-			FILE * num_ptr = fopen(bcovnum, "a+") ;
-
 			while (file_size > 1) {
 				fread(buf, 1, sizeof(uint32_t), bcov_ptr) ;
 				file_size = file_size - sizeof(uint32_t) ;
@@ -128,13 +126,6 @@ main (int argc, char * argv[]) {
 				fread(PcDescr, 1, *size, bcov_ptr) ;
 				file_size = file_size - *size ;
 				
-		//		fprintf(stderr, "%d ", *buf) ;
-				
-				char cbuf[5] ;
-				sprintf(cbuf, "%d ", *buf) ;
-				fwrite(cbuf, 1, sizeof(cbuf), num_ptr) ;
-				
-				
 				if (tp_branch[*buf] != 1) {
 					tp_branch[*buf] = 1 ;
 					strcpy(branch_path[*buf], PcDescr) ;
@@ -142,8 +133,6 @@ main (int argc, char * argv[]) {
 
 			}
 
-			fclose(num_ptr) ;
-			free(bcovnum) ;
 			free(PcDescr) ;
 			free(size) ;
 			free(buf) ;
@@ -167,7 +156,7 @@ main (int argc, char * argv[]) {
 					if (*ch == 'p') {
 						p_branch[i] ++ ;
 					}
-					else  {
+					else  {	
 						f_branch[i] ++ ;
 					}
 				}
@@ -209,7 +198,7 @@ main (int argc, char * argv[]) {
 		O_rank = sorting_statement(num_of_branch, sus, con) ;
 		
 		fprintf(stderr, "result\n") ;
-		fprintf(stderr, "rank : Tar SBI Jcd Och\n") ;
+		fprintf(stderr, "line : Tar SBI Jcd Och\n") ;
 		for (int i = 1 ; i < num_of_branch + 1 ; i ++ ) { 
 			fprintf(stderr, "%.3d  : %.3d %.3d %.3d %.3d\n", i, T_rank[i], S_rank[i], J_rank[i], O_rank[i]) ;
 		}
@@ -223,12 +212,12 @@ main (int argc, char * argv[]) {
 		free(S_rank) ;	
 		free(J_rank) ;	
 		free(O_rank) ;	
+		for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
+			free(branch_path[i]) ;
+		}
 	}
 
 	free(outputDir_path);
-	for (int i = 1 ; i < num_of_branch + 1 ; i ++) {
-		free(branch_path[i]) ;
-	}
 
 	return 0 ;
 }
@@ -365,12 +354,29 @@ sorting_statement(int n, double * sus, double * con) {
 			}	
 		}
 	}
-	/*
-	for (int i = 1 ; i < n + 1 ; i ++) {
-		int index = rank_tp[i] ;
-		rank[index] = i ; 
-	}
-	*/
+	int i = n ;
+	while (i > 0) {
+		int j = i - 1 ;
+		
+		int post_index = rank_tp[i] ;
+		int pre_index = rank_tp[j] ;
 
-	return rank_tp ;
+		while ((sus[post_index] == sus[pre_index]) && (con[post_index] == con[pre_index])) {
+			j -- ;
+			pre_index = rank_tp[j] ;
+			if (j == 0) {
+				j = 1 ;
+				break ; 
+			}
+
+		}
+
+		for (int index = i ; index > j ; index --) {
+			int tp = rank_tp[index] ;
+			rank[tp] = i ;
+		}
+		i = j ;
+	}
+
+	return rank ;
 }

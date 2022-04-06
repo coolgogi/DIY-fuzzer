@@ -28,7 +28,7 @@ runner (char * exec, char * input, char * output) {
 		char * total_path = (char *) malloc (strlen(exec) + 6);
 		strcpy(total_path, exec);
 		strcat(total_path, ".bcov");
-		
+	
 		int fp[3] ;
 		mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH ;
         	fp[0] = open(input, O_RDONLY);
@@ -37,24 +37,32 @@ runner (char * exec, char * input, char * output) {
 		free(total_path);
 		
 		if (dup2(fp[0], STDIN_FILENO) == -1) {
-			fprintf(stderr, "1st dup2 error in runner\n");
+			fprintf(stderr, "STDIN dup2 error in runner\n");
      		    	rt.code_num = errno;	
 		    	exit(errno);
-        	}   
+        	} 
+	       /*	
+		if (dup2(fp[2], STDOUT_FILENO) == -1) {
+			fprintf(stderr, "STDOUT dup2 error in runner\n");
+     		    	rt.code_num = errno;	
+		    	exit(errno);
+        	}
+	*/	
 	        if (dup2(fp[1], BCOV_FILENO) == -1) {
-			fprintf(stderr, "2nd dup2 error in runner\n");
+			fprintf(stderr, "BCOV FILE dup2 error in runner\n");
  	           	rt.code_num = errno;
 	           	exit(errno);
      		}
 		if (dup2(fp[2], TOTAL_FILENO) == -1) {
-			fprintf(stderr, "3rd dup2 error in runner\n");
+			fprintf(stderr, "TOTAL FILE dup2 error in runner\n");
 			rt.code_num = errno;
 			exit(errno);
 		}
-
+	
         
-	        if (execl(exec,"target", 0x0) == -1) {
-		    	fprintf(stderr, "target exec: %s\n", exec) ;
+//	        if (execl(exec,"target", 0x0) == -1) {
+		if (execl(exec, "xmllint", input, 0x0) == -1) {
+			fprintf(stderr, "target exec: %s\n", exec) ;
 	            	perror("");
             		rt.code_num = errno;  
             		exit(errno);  
@@ -63,6 +71,7 @@ runner (char * exec, char * input, char * output) {
         	close(fp[0]);
         	close(fp[1]);
 		close(fp[2]);
+
 	}
     	else {
         	pid_t w;

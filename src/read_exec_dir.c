@@ -8,18 +8,25 @@
 #include <stdint.h>
 #include "../include/runner.h"
 
-int
-read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path) {
+int *
+read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path, int bcov) {
 	
     DIR * dir;
     struct dirent * dir_info;
 
     dir = opendir(dir_path);
     
+    int * rt = (int *) malloc (sizeof(int) * 3) ;     
+    rt[0] = 0 ;
+    rt[1] = 0 ;
+    rt[2] = 0 ;
     if (dir == NULL) {
         perror("opendir returned NULL");
-	return errno;
+	rt[0] = -1 ;
+	rt[1] = errno ;
+	return rt;
     }
+
 
     while ((dir_info = readdir(dir))) {
 
@@ -35,10 +42,12 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path) 
 	    strcpy(file_path, dir_path);
             strcat(file_path, dir_info->d_name);
 
-	  	
             if (dir_info->d_type == DT_DIR) {
                 strcat(file_path, "/");
-                read_exec_dir(executeFile_path, file_path, outputDir_path);
+    		int * tp = read_exec_dir(executeFile_path, file_path, outputDir_path, bcov);
+		rt[0] = rt[0] + tp[0] ;
+		rt[1] = rt[1] + tp[1] ;
+		free(tp) ;
             }
 	    else { 
             	char * outputFile_path = (char *) malloc (strlen(outputDir_path) + strlen(dir_info->d_name) + 6) ;
@@ -46,17 +55,26 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path) 
 		strcpy(outputFile_path, outputDir_path) ;
 	    	strcat(outputFile_path, dir_info->d_name) ;
 	    	strcat(outputFile_path, ".bcov") ;
-            	
-		EXITCODE rt = runner(executeFile_path, file_path, outputFile_path) ;
+            		
+		EXITCODE exit = runner(executeFile_path, file_path, outputFile_path) ;
 
-		if (rt.code_num == 0) {
+		if (exit.code_num == 0) {
 			*ch = 'p' ;
+			rt[0] ++ ;
 		}
-		else if (rt.code_num == 9) {
+		else if (exit.code_num == 9) {
 			*ch = 't' ;
+			rt[1] ++ ;
 		}
-		else {
+/*
+ * 		else if (exit.code_num == 11) {
 			*ch = 'f' ;
+			rt[2] ++ ;
+		}
+*/
+		else {	
+			*ch = 'f' ;
+			rt[1] ++ ;
 		}
 		
 		FILE * fp = fopen(outputFile_path, "a") ;
@@ -71,24 +89,22 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path) 
 	    
         }
     }
-
-    int num_of_branch = 0 ;
     
-    uint32_t * buf = (uint32_t *) malloc (sizeof(uint32_t)) ;
-    char * total_path = (char *) malloc (strlen(executeFile_path) + 6) ;
-    strcpy(total_path, executeFile_path) ;
-    strcat(total_path, ".bcov") ;
-    FILE * total_fp = fopen(total_path, "r") ;
+    if (bcov == 1) {    
+	    uint32_t * buf = (uint32_t *) malloc (sizeof(uint32_t)) ;
+	    char * total_path = (char *) malloc (strlen(executeFile_path) + 6) ;
+	    strcpy(total_path, executeFile_path) ;
+	    strcat(total_path, ".bcov") ;
+	    FILE * total_fp = fopen(total_path, "r") ;
 
-    fread(buf, 1, sizeof(uint32_t), total_fp) ;
-
-    num_of_branch = * buf ;
+	    fread(buf, 1, sizeof(uint32_t), total_fp) ;
+	    rt[2] = * buf ;
     
-    fclose(total_fp) ;
-    remove(total_path) ;
-    free(total_path) ;
-    free(buf) ;
+	    fclose(total_fp) ;
+	    remove(total_path) ;
+	    free(total_path) ;
+	    free(buf) ;
+    }
     closedir(dir) ;
-
-    return num_of_branch ;
+    return rt ;
 }
