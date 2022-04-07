@@ -1,8 +1,5 @@
 echo "build xmllint"
 
 cd ../libxml2
-make distclean
-CFLAGS='-O3 -g -fsanitize=address' CC='clang' ./configure --with-icu
 
-#CFLAGS='-O3 -g -fsanitize=address -fsanitize-coverage=trace-pc-guard' CC='clang'  make
-CFLAGS='-ftest-coverage' make
+CC='clang' CFLAGS='-g -O2 -fprofile-instr-generate -fcoverage-mapping -Wall -fsanitize=address' CPPFLAGS='-g -O0 -fprofile-instr-generate -fcoverage-mapping -fsanitize=address' ./configure --with-icu
