@@ -53,8 +53,8 @@ runner (char * exec, char * input, char * output) {
 		}
 		fprintf(stderr, "pid : %d\n", getpid()) ;
 //		if (execl(exec, exec, input, 0x0) == -1) {	        
-		if (execl(exec, exec, "--recover", "--postvalid", input, 0x0) == -1) {
-//		if (execl(exec, exec, "--maxmem", "5", input, 0x0) == -1) {
+//		if (execl(exec, exec, "--recover", "--postvalid", input, 0x0) == -1) {
+		if (execl(exec, exec, "--maxmem", "5", input, 0x0) == -1) {
 			perror("runner : ");
        		     	rt.code_num = errno;  
 	            	exit(errno);  

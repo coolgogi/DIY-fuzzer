@@ -17,8 +17,7 @@ then
 	output_dir="${dir}issue311/"
 fi
 
-rm -rf $dir*
-mkdir ${output_dir}
+rm -rf $output_dir*
 mkdir ${output_dir}pass
 mkdir ${output_dir}fail
 mkdir ${output_dir}tout
