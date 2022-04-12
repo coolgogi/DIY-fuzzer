@@ -47,7 +47,7 @@ exec_sancov_dir (char * executeFile_path, char * dir_path, char * outputDir_path
 		free(tp) ;
             }
 	    else {
-		rt[2]++; 
+		//rt[2]++; 
             	char * outputFile_path = (char *) malloc (strlen(outputDir_path) + strlen(dir_info->d_name) + 6) ;
 	    	char * ch = (char *) malloc (2) ;
 		strcpy(outputFile_path, outputDir_path) ;
@@ -62,7 +62,7 @@ exec_sancov_dir (char * executeFile_path, char * dir_path, char * outputDir_path
 		}
 		else if (exit.code_num == 9) {
 			strcpy(ch, "t\n") ;
-			rt[1] ++ ;
+			rt[2] ++ ;
 		}
 		else {	
 			strcpy(ch, "f\n") ;
@@ -80,6 +80,10 @@ exec_sancov_dir (char * executeFile_path, char * dir_path, char * outputDir_path
 
 		if (ch[0] == 'p') {
 			sprintf(sancov_output, "%spass/%s.bcov", outputDir_path, target_sancov) ;
+			sancov_runner(executeFile_path, target_sancov, sancov_output) ;	
+		}
+		else if (ch[0] == 't') {
+			sprintf(sancov_output, "%stout/%s", outputDir_path, outputFile_path) ;
 			sancov_runner(executeFile_path, target_sancov, sancov_output) ;	
 		}
 		else {
