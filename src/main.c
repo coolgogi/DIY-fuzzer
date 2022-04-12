@@ -10,10 +10,6 @@
 #include <sys/stat.h>
 #include "../include/runner.h"
 
-double * calculate_sus (char, int *, int *, int *, int) ;
-double * calculate_con (char, int *, int *, int *, int) ;
-int * sorting_statement (int, double *, double *);
-
 int
 main (int argc, char * argv[]) {
 	
@@ -58,7 +54,7 @@ main (int argc, char * argv[]) {
 
 	if (access(outputDir_path, F_OK) != 0) {
 		fprintf(stderr, "main.c : output directory path is not valid\n");
-		exit(EXIT_FAILURE);
+	exit(EXIT_FAILURE);
 	}
 
    	rt = read_exec_dir(executeFile_path, inputDir_path, outputDir_path, bcov) ;
@@ -220,163 +216,4 @@ main (int argc, char * argv[]) {
 	free(outputDir_path);
 
 	return 0 ;
-}
-
-
-
-double *
-calculate_sus (char type, int * p_branch, int * f_branch, int * cases, int n) {
-
-	double passed ;
-	double failed ;
-	double totalFailed ;
-
-	double * sus = (double *) malloc (sizeof(double) * (n + 1)) ;
-
-	for (int i = 1 ; i < n + 1 ; i ++) {
-
-		if (type == 'T') {
-			passed = (double) p_branch[i] / (double) cases[0] ;
-			failed = (double) f_branch[i] / (double) cases[1] ;
-
-			if (passed == 0 && failed == 0) {
-				sus[i] = 0 ;
-			}
-			else {
-				sus[i] = failed / (failed + passed) ;
-			}
-		}
-		else if (type == 'S') {
-			passed = (double) p_branch[i] ;
-			failed = (double) f_branch[i] ;
-
-			if (passed == 0 && failed == 0) {
-				sus[i] = 0 ;
-			}
-			else {
-				sus[i] = failed / (failed + passed) ;
-			}
-		}
-		else if (type == 'J') {
-			passed = (double) p_branch[i] ;
-			failed = (double) f_branch[i] ;
-			totalFailed = (double) cases[1] ;
-
-			if (totalFailed == 0 && passed == 0) {
-				sus[i] = 0 ;
-			}
-			else {
-				sus[i] = failed / (totalFailed + passed) ;
-			}
-		}
-		else if (type =='O') {
-			passed = (double) p_branch[i] ;
-			failed = (double) f_branch[i] ;
-			totalFailed = (double) cases[1] ;
-			
-			double tp = totalFailed * (failed + passed) ;
-			if (tp == 0) {
-				sus[i] = 0 ;
-			}
-			else {
-				sus[i] = failed / sqrt(tp) ;
-			}
-		}
-	}
-	return sus ;
-}
-	
-double *
-calculate_con (char mode, int * p_branch, int * f_branch, int * cases, int n) {
-
-	double passed ;
-	double failed ;
-	double * con = (double *) malloc (sizeof(double) * (n + 1)) ;
-	
-	for (int i = 1 ; i < n + 1 ; i ++) {
-		if (mode == 'T') {
-
-			passed = (double) p_branch[i] / (double) cases[0] ;
-			failed = (double) f_branch[i] / (double) cases[1] ;
-	
-			if (passed > failed) {
-				con[i] = passed ;
-			}
-			else {
-				con[i] = failed ;
-			}
-		}
-		else {
-			con[i] = 0 ;
-		}
-	}
-	return con ;
-}
-
-int *
-sorting_statement(int n, double * sus, double * con) {
-	
-	int * rank = (int *) malloc (sizeof(int) * (n + 1)) ;
-	int * rank_tp = (int *) malloc (sizeof(int) * (n + 1)) ;
-
-	for (int i = 1 ; i < n + 1 ; i ++) {
-		rank_tp[i] = i ;
-	}
-
-	for (int i = 1 ; i < n ; i ++) {
-			
-		int pre_index = rank_tp[i] ;	
-		for (int j = i + 1 ; j < n + 1 ; j ++) {
-
-			int post_index = rank_tp[j] ;
-			double pre = sus[pre_index] ;
-			double post = sus[post_index] ;
-
-			if (pre < post) {
-				int tp = rank_tp[i] ;
-				rank_tp[i] = rank_tp[j] ;
-				rank_tp[j] = tp ;
-				pre_index = rank_tp[i] ;
-			}
-			else if (pre == post) {
-				pre = con[pre_index] ;
-				post = con[post_index] ;
-
-				if (pre < post) {
-					int tp = rank_tp[i] ;
-					rank_tp[i] = rank_tp[j] ;
-					rank_tp[j] = tp ;
-
-					pre_index = rank_tp[i] ;
-				}
-				else if (pre == post) {
-				}
-			}	
-		}
-	}
-	int i = n ;
-	while (i > 0) {
-		int j = i - 1 ;
-		
-		int post_index = rank_tp[i] ;
-		int pre_index = rank_tp[j] ;
-
-		while ((sus[post_index] == sus[pre_index]) && (con[post_index] == con[pre_index])) {
-			j -- ;
-			pre_index = rank_tp[j] ;
-			if (j == 0) {
-				j = 1 ;
-				break ; 
-			}
-
-		}
-
-		for (int index = i ; index > j ; index --) {
-			int tp = rank_tp[index] ;
-			rank[tp] = i ;
-		}
-		i = j ;
-	}
-
-	return rank ;
 }

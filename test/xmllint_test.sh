@@ -5,4 +5,7 @@ target="../libxml2/xmllint"
 input_dir="../libxml2/test/"
 output_dir="output/libxml2/"
 
-$main $input_dir $output_dir $target -bcov
+rm $output_dir*.bcov
+
+#$main $input_dir $output_dir $target -bcov
+

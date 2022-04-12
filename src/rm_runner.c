@@ -11,7 +11,7 @@
 
 
 EXITCODE
-runner (char * exec, char * input, char * output) {
+rm_runner (char * target) {
 
 	pid_t child_pid;
     	EXITCODE rt;
@@ -25,43 +25,11 @@ runner (char * exec, char * input, char * output) {
     	}
     	else if (child_pid == 0) {
 		
-		char * total_path = (char *) malloc (strlen(exec) + 6);
-		strcpy(total_path, exec);
-		strcat(total_path, ".bcov");
-	
-		int fp[3] ;
-		mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH ;
-        	fp[0] = open(input, O_RDONLY);
-		fp[1] = open(output, O_CREAT | O_APPEND | O_WRONLY, mode);
-		fp[2] = open(total_path, O_CREAT | O_APPEND | O_WRONLY, mode);
-		free(total_path);
-		
-		if (dup2(fp[0], STDIN_FILENO) == -1) {
-			fprintf(stderr, "STDIN dup2 error in runner\n");
-     		    	rt.code_num = errno;	
-		    	exit(errno);
-        	} 
-	        if (dup2(fp[1], BCOV_FILENO) == -1) {
-			fprintf(stderr, "BCOV FILE dup2 error in runner\n");
- 	           	rt.code_num = errno;
-	           	exit(errno);
-     		}
-		if (dup2(fp[2], TOTAL_FILENO) == -1) {
-			fprintf(stderr, "TOTAL FILE dup2 error in runner\n");
-			rt.code_num = errno;
-			exit(errno);
-		}
-		fprintf(stderr, "pid : %d\n", getpid()) ;
-		if (execl(exec, exec, input, 0x0) == -1) {
-		        
-			perror("runner : ");
-       		     	rt.code_num = errno;  
-	            	exit(errno);  
-		}
-			
-        	close(fp[0]);
-        	close(fp[1]);
-		close(fp[2]);
+		if (execl("/bin/rm", "/bin/rm", target, 0x0) == -1) {
+	            	perror("rm_runner : ");
+       	     		rt.code_num = errno;  
+	           	exit(errno);  
+        	}
 
 	}
     	else {
@@ -105,7 +73,5 @@ runner (char * exec, char * input, char * output) {
         	}
 		
     	}
-	rt.child_pid = child_pid ;
-
     	return rt;
 }

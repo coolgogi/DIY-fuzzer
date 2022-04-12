@@ -7,15 +7,28 @@ CFLAGS = -g -O0
 SRC = $(wildcard src/*.c)
 INCL = $(wildcard include/*.o)
 
-all:  runner trace
+all:  runner trace calculate sorting
 	$(CC) -c src/read_exec_dir.c $(CFLAGS) -o bin/read_exec_dir.o
-	$(CC) src/main.c bin/runner.o bin/read_exec_dir.o $(CFLAGS) -o bin/main -lm
+	$(CC) src/main.c bin/runner.o bin/read_exec_dir.o bin/calculate_con.o bin/calculate_sus.o bin/sorting_statement.o $(CFLAGS) -o bin/main -lm
 
 runner:
 	$(CC) -c src/runner.c $(CFLAGS)  -o bin/runner.o
+	$(CC) -c src/rm_runner.c $(CFLAGS)  -o bin/rm_runner.o
+	$(CC) -c src/sancov_runner.c $(CFLAGS)  -o bin/sancov_runner.o
 
 trace:
 	$(CC) -fsanitize=address -c src/trace-pc-guard.c -o bin/trace-pc-guard.o
+
+calculate:
+	$(CC) -c src/calculate_con.c $(CFLAGS) -o bin/calculate_con.o
+	$(CC) -c src/calculate_sus.c $(CFLAGS) -o bin/calculate_sus.o
+
+sorting:
+	$(CC) -c src/sorting_statement.c $(CFLAGS) -o bin/sorting_statement.o
+
+sancov: runner trace
+	$(CC) -c src/exec_sancov_dir.c $(CFLAGS) -o bin/exec_sancov_dir.o
+	$(CC) src/sancov_main.c bin/runner.o bin/sancov_runner.o bin/rm_runner.o bin/exec_sancov_dir.o bin/calculate_sus.o bin/calculate_con.o bin/sorting_statement.o $(CFLAGS) -o bin/sancov_main -lm
 
 reduction:
 	$(CC) -fsanitize=address src/test-case_reduction.c $(CFLAGS) -o bin/test-case_reduction

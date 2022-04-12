@@ -22,8 +22,15 @@ typedef struct exitcode {
 
 	int code_num;
 	int valid;
+	int child_pid;
 
 } EXITCODE;
 
 EXITCODE runner (char *, char *, char *);
+EXITCODE rm_runner (char *);
+EXITCODE sancov_runner (char *, char *, char *);
 int * read_exec_dir (char *, char *, char *, int);
+int * exec_sancov_dir (char *, char *, char *, int);
+double * calculate_sus(char, int *, int *, int *, int) ;
+double * calculate_con(char, int *, int *, int *, int) ;
+int * sorting_statement(int, double *, double *) ;

@@ -9,7 +9,7 @@
 #include "../include/runner.h"
 
 int *
-read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path, int bcov) {
+exec_sancov_dir (char * executeFile_path, char * dir_path, char * outputDir_path, int bcov) {
 	
     DIR * dir;
     struct dirent * dir_info;
@@ -40,14 +40,16 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path, 
 
             if (dir_info->d_type == DT_DIR) {
         	strcat(file_path, "/");
-    		int * tp = read_exec_dir(executeFile_path, file_path, outputDir_path, bcov);
+    		int * tp = exec_sancov_dir(executeFile_path, file_path, outputDir_path, bcov);
 		rt[0] = rt[0] + tp[0] ;
 		rt[1] = rt[1] + tp[1] ;
+		rt[2] = rt[2] + tp[2] ;
 		free(tp) ;
             }
-	    else { 
+	    else {
+		rt[2]++; 
             	char * outputFile_path = (char *) malloc (strlen(outputDir_path) + strlen(dir_info->d_name) + 6) ;
-	    	char * ch = (char *) malloc (1) ;
+	    	char * ch = (char *) malloc (2) ;
 		strcpy(outputFile_path, outputDir_path) ;
 	    	strcat(outputFile_path, dir_info->d_name) ;
 	    	strcat(outputFile_path, ".bcov") ;
@@ -55,23 +57,39 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path, 
 		EXITCODE exit = runner(executeFile_path, file_path, outputFile_path) ;
 
 		if (exit.code_num == 0) {
-			*ch = 'p' ;
+			strcpy(ch, "p\n") ;
 			rt[0] ++ ;
 		}
 		else if (exit.code_num == 9) {
-			*ch = 't' ;
+			strcpy(ch, "t\n") ;
 			rt[1] ++ ;
 		}
 		else {	
-			*ch = 'f' ;
+			strcpy(ch, "f\n") ;
 			rt[1] ++ ;
 		}
 		
 		FILE * fp = fopen(outputFile_path, "a") ;
-		fwrite(ch, 1, 1, fp) ;
+		fwrite(ch, 1, strlen(ch), fp) ;
 		fclose(fp) ;
 		
+
+		char * target_sancov = (char *) malloc (30) ;
+		sprintf(target_sancov, "xmllint.%d.sancov", exit.child_pid) ;
+		char * sancov_output = (char *) malloc (strlen(target_sancov) + 26) ;
+
+		if (ch[0] == 'p') {
+			sprintf(sancov_output, "%spass/%s.bcov", outputDir_path, target_sancov) ;
+			sancov_runner(executeFile_path, target_sancov, sancov_output) ;	
+		}
+		else {
+			sprintf(sancov_output, "%sfail/%s.bcov", outputDir_path, target_sancov) ;
+			sancov_runner(executeFile_path, target_sancov, sancov_output) ;	
+		}
+		rm_runner(target_sancov) ;
+			
 		free(ch) ;
+		free(sancov_output) ;
 		free(outputFile_path) ;
 	    }
 
@@ -79,21 +97,5 @@ read_exec_dir (char * executeFile_path, char * dir_path, char * outputDir_path, 
 	    
     }
     
-    if (bcov == 1) {    
-	    uint32_t * buf = (uint32_t *) malloc (sizeof(uint32_t)) ;
-	    char * total_path = (char *) malloc (strlen(executeFile_path) + 6) ;
-	    strcpy(total_path, executeFile_path) ;
-	    strcat(total_path, ".bcov") ;
-	    FILE * total_fp = fopen(total_path, "r") ;
-
-	    fread(buf, 1, sizeof(uint32_t), total_fp) ;
-	    rt[2] = * buf ;
-    
-	    fclose(total_fp) ;
-	    remove(total_path) ;
-	    free(total_path) ;
-	    free(buf) ;
-    }
-    closedir(dir) ;
     return rt ;
 }
