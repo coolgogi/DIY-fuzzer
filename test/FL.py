@@ -1,10 +1,24 @@
 import os
 from collections import Counter
+import sys
+import math
 
 def tarantula(p, f):
     return f / (p + f)
 
-path="output/libxml2/pass/"
+def SBI(p, f):
+    return f / (p + f)
+
+def Jcd(p, f, t_f):
+    return f / (t_f + p)
+
+def Och(p, f, t_f):
+    return f / math.sqrt(t_f * (f + p))
+
+issue=sys.argv[1]
+path="output/libxml2/"
+path=path+issue
+path=path+"/pass/"
 p_branch = []
 p_num = 0 ;
 for filename in os.listdir(path):
@@ -29,7 +43,9 @@ for i in p_branch:
 p_set = set(p_branch)
 p_set = list(p_set)
 
-path="output/libxml2/fail/"
+path="output/libxml2/"
+path=path+issue
+path=path+"/fail/"
 f_branch = []
 f_num = 0 ;
 for filename in os.listdir(path):
@@ -80,11 +96,16 @@ for i in range(num):
     O[i] = k
     p = 0
     f = 0
+    n_p = 0
+    n_f = 0
+
     if (p_count.get(k) != None):
         p = p_count.get(k) / p_num
+        n_p = p_count.get(k)
     
     if (f_count.get(k) != None):
         f = f_count.get(k) / f_num
+        n_f = f_count.get(k)
 
     if ((f == 0)and(p != 0)):
         T_sus[k] = 0
@@ -94,26 +115,68 @@ for i in range(num):
         T_sus[k] = 1
         T_con[k] = f
     else:
-        T_sus[k] = f / (f + p)
+        T_sus[k] = tarantula(p, f)
         if f > p:
             T_con[k] = f
         else:
             T_con[k] = p
+
+    S_sus[k] = SBI(n_p, n_f)
+    J_sus[k] = Jcd(n_p, n_f, f_num)
+    O_sus[k] = Och(n_p, n_f, f_num)
+
 
 t_list = []
 for i in range(num):
     k = O[i]
     tp = (k, T_sus[k], T_con[k])
     t_list.append(tp)
-
 t_list.sort(key=lambda x:(-x[1],-x[2]))
-
-result_file = open("tarantula", "a")
+tarantula_file = open("tarantula", "a")
 for i in range(num): 
     h = hex(t_list[i][0])
     h.replace('0x', "")
-    result_file.write("%s %f %f\n" % (h,t_list[i][1],t_list[i][2]))
-print(p_num)
-print(f_num)
+    tarantula_file.write("%s %f %f\n" % (h,t_list[i][1],t_list[i][2]))
+tarantula_file.close()
 
+s_list = []
+for i in range(num):
+    k = O[i]
+    tp = (k, S_sus[k], 0)
+    s_list.append(tp)
 
+s_list.sort(key=lambda x:(-x[1],-x[2]))
+sbi_file = open("sbi", "a")
+for i in range(num): 
+    h2 = hex(s_list[i][0])
+    h2.replace('0x', "")
+    sbi_file.write("%s %f\n" % (h2,s_list[i][1]))
+sbi_file.close()
+
+j_list = []
+for i in range(num):
+    k = O[i]
+    tp = (k, J_sus[k], 0)
+    j_list.append(tp)
+
+j_list.sort(key=lambda x:(-x[1],-x[2]))
+jaccard_file = open("jaccard", "a")
+for i in range(num): 
+    h3 = hex(j_list[i][0])
+    h3.replace('0x', "")
+    jaccard_file.write("%s %f\n" % (h3,j_list[i][1]))
+jaccard_file.close()
+
+o_list = []
+for i in range(num):
+    k = O[i]
+    tp = (k, O_sus[k], 0)
+    o_list.append(tp)
+
+o_list.sort(key=lambda x:(-x[1],-x[2]))
+ochiai_file = open("ochiai", "a")
+for i in range(num): 
+    h4 = hex(o_list[i][0])
+    h4.replace('0x', "")
+    ochiai_file.write("%s %f\n" % (h4,o_list[i][1]))
+ochiai_file.close()

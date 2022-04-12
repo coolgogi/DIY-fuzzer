@@ -82,17 +82,20 @@ exec_sancov_dir (char * executeFile_path, char * dir_path, char * outputDir_path
 			sprintf(sancov_output, "%spass/%s.bcov", outputDir_path, target_sancov) ;
 			sancov_runner(executeFile_path, target_sancov, sancov_output) ;	
 		}
+		
 		else if (ch[0] == 't') {
-			sprintf(sancov_output, "%stout/%s", outputDir_path, outputFile_path) ;
+			sprintf(sancov_output, "%stout/%s", outputDir_path, dir_info->d_name) ;
 			sancov_runner(executeFile_path, target_sancov, sancov_output) ;	
 		}
+		
 		else {
 			sprintf(sancov_output, "%sfail/%s.bcov", outputDir_path, target_sancov) ;
 			sancov_runner(executeFile_path, target_sancov, sancov_output) ;	
 		}
 		rm_runner(target_sancov) ;
-			
+		
 		free(ch) ;
+		free(target_sancov) ;
 		free(sancov_output) ;
 		free(outputFile_path) ;
 	    }
