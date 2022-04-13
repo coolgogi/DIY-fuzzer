@@ -9,7 +9,7 @@
 int
 main (int argc, char * argv[]) {
 	
-	if (argc != 4) {
+	if ((argc != 4)||(argv != 5)) {
 		fprintf(stderr, "invalid input\n") ;
 		exit(0) ;
 	}
@@ -41,7 +41,6 @@ main (int argc, char * argv[]) {
 	}
 	
 	rt_branch = exec_sancov_dir(targetDir, inputDir, outputDir, 1) ;
-	
 	printf("%d %d %d\n", rt_branch[0], rt_branch[1], rt_branch[2]) ;
 /*	
 	int num = 31484 ; 

@@ -4,25 +4,28 @@ import sys
 import math
 
 def tarantula(p, f):
-    return f / (p + f)
+    if (p + f) == 0:
+        return 0
+    else:
+        return f / (p + f)
 
-def SBI(p, f):
-    return f / (p + f)
+def SBI(n_p, n_f):
+    return n_f / (n_p + n_f)
 
-def Jcd(p, f, t_f):
-    return f / (t_f + p)
+def Jcd(n_p, n_f, t_f):
+    return n_f / (t_f + n_p)
 
-def Och(p, f, t_f):
-    return f / math.sqrt(t_f * (f + p))
+def Och(n_p, n_f, t_f):
+    return n_f / math.sqrt(t_f * (n_f + n_p))
 
 issue=sys.argv[1]
 path="output/libxml2/"
 path=path+issue
 path=path+"/pass/"
 p_branch = []
-p_num = 0 ;
+p_num = 2163 ;
 for filename in os.listdir(path):
-    p_num = p_num + 1
+    #p_num = p_num + 1
     with open(os.path.join(path, filename), 'r') as f:
         texts = f.readlines()
         set_text = []
@@ -107,19 +110,12 @@ for i in range(num):
         f = f_count.get(k) / f_num
         n_f = f_count.get(k)
 
-    if ((f == 0)and(p != 0)):
-        T_sus[k] = 0
-        T_con[k] = p
+    T_sus[k] = tarantula(p, f)
 
-    elif ((p == 0)and(f != 0)):
-        T_sus[k] = 1
+    if f > p:
         T_con[k] = f
     else:
-        T_sus[k] = tarantula(p, f)
-        if f > p:
-            T_con[k] = f
-        else:
-            T_con[k] = p
+        T_con[k] = p
 
     S_sus[k] = SBI(n_p, n_f)
     J_sus[k] = Jcd(n_p, n_f, f_num)
@@ -180,3 +176,5 @@ for i in range(num):
     h4.replace('0x', "")
     ochiai_file.write("%s %f\n" % (h4,o_list[i][1]))
 ochiai_file.close()
+print(p_num)
+print(f_num)
